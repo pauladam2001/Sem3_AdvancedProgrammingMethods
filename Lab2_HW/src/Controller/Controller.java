@@ -17,6 +17,18 @@ public class Controller {
     public Controller(Integer size) {
         this.size = size;
         this.repository = new InMemoryRepository(size);
+        this.addStart();
+    }
+
+    private void addStart() {
+        try {
+            this.addController(25, "Flour");
+            this.addController(20, "Sugar");
+            this.addController(20, "Salt");
+            this.addController(18, "Flour");
+            this.addController(5, "Salt");
+        } catch (Exception ignored) {
+        }
     }
 
     public void addController(Integer price, String type) throws FullArrayException, InvalidTypeException {
