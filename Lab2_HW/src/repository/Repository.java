@@ -1,8 +1,8 @@
-package Repository;
+package repository;
 
-import Exceptions.ElementNotFoundException;
-import Exceptions.FullArrayException;
-import Model.Food;
+import exceptions.ElementNotFoundException;
+import exceptions.FullArrayException;
+import model.Food;
 
 public interface Repository {
     public void addFood(Food newFood) throws FullArrayException;

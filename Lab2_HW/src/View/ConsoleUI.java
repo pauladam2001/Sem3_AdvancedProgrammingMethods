@@ -2,8 +2,8 @@ package View;
 
 import java.util.Arrays;
 import java.util.Scanner;
-import Controller.Controller;
-import Model.Food;
+import controller.Controller;
+import model.Food;
 
 public class ConsoleUI {
     private Controller controller;

@@ -1,4 +1,4 @@
-package Model;
+package model;
 
 public interface Food {
     Integer MIN_PRICE = 20;

@@ -1,10 +1,10 @@
-package Model;
+package model;
 
-public class Flour implements Food {
+public class Sugar implements Food {
     private Integer price;
-    private final String type = "Flour";
+    private final String type = "Sugar";
 
-    public Flour(Integer price) {
+    public Sugar(Integer price) {
         this.price = price;
     }
 

@@ -1,14 +1,14 @@
-package Controller;
+package controller;
 
-import Exceptions.ElementNotFoundException;
-import Exceptions.FullArrayException;
-import Exceptions.InvalidTypeException;
-import Model.Flour;
-import Model.Food;
-import Model.Salt;
-import Model.Sugar;
-import Repository.Repository;
-import Repository.InMemoryRepository;
+import exceptions.ElementNotFoundException;
+import exceptions.FullArrayException;
+import exceptions.InvalidTypeException;
+import model.Flour;
+import model.Food;
+import model.Salt;
+import model.Sugar;
+import repository.Repository;
+import repository.InMemoryRepository;
 
 public class Controller {
     private Repository repository;
@@ -32,16 +32,12 @@ public class Controller {
     }
 
     public void addController(Integer price, String type) throws FullArrayException, InvalidTypeException {
-        Food newFood;
-
-        if (type.equals("Flour"))
-            newFood = new Flour(price);
-        else if (type.equals("Salt"))
-            newFood = new Salt(price);
-        else if (type.equals("Sugar"))
-            newFood = new Sugar(price);
-        else
-            throw new InvalidTypeException("Invalid type!");
+        Food newFood = switch (type) {
+            case "Flour" -> new Flour(price);
+            case "Salt" -> new Salt(price);
+            case "Sugar" -> new Sugar(price);
+            default -> throw new InvalidTypeException("Invalid type!");
+        };
 
         this.repository.addFood(newFood);
     }

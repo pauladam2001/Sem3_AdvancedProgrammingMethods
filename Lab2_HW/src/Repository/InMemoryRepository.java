@@ -1,15 +1,15 @@
-package Repository;
+package repository;
 
-import Exceptions.ElementNotFoundException;
-import Exceptions.FullArrayException;
-import Model.Food;
+import exceptions.ElementNotFoundException;
+import exceptions.FullArrayException;
+import model.Food;
 
 import java.util.Objects;
 
 public class InMemoryRepository implements Repository {
     private Food[] data;
     private Integer currentSize;
-    private Integer size;
+    private final Integer size;
 
     public InMemoryRepository(Integer size) {
         this.size = size;

@@ -1,6 +1,4 @@
-package Model;
-
-import java.security.PublicKey;
+package model;
 
 public class Salt implements Food {
     private Integer price;
