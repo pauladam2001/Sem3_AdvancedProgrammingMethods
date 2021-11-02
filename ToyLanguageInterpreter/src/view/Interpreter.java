@@ -7,7 +7,6 @@ import model.expression.*;
 import model.statement.*;
 import model.type.BoolType;
 import model.type.IntType;
-import model.type.StringType;
 import model.value.BoolValue;
 import model.value.IntValue;
 import model.value.StringValue;
@@ -23,9 +22,9 @@ public class Interpreter {
         menu.addCommand(new ExitCommand("0", "exit"));
 
 
-        StackInterface<StatementInterface> stack1 = new MyStack<StatementInterface>();
-        DictionaryInterface<String, ValueInterface> symbolTable1 = new MyDictionary<String, ValueInterface>();
-        ListInterface<ValueInterface> output1 = new MyList<ValueInterface>();
+        StackInterface<StatementInterface> stack1 = new MyStack<>();
+        DictionaryInterface<String, ValueInterface> symbolTable1 = new MyDictionary<>();
+        ListInterface<ValueInterface> output1 = new MyList<>();
         DictionaryInterface<StringValue, BufferedReader> fileTable1 = new MyDictionary<>();
 
         StatementInterface statement1 = new CompoundStatement(
@@ -45,9 +44,9 @@ public class Interpreter {
         }
 
 
-        StackInterface<StatementInterface> stack2 = new MyStack<StatementInterface>();
-        DictionaryInterface<String, ValueInterface> symbolTable2 = new MyDictionary<String, ValueInterface>();
-        ListInterface<ValueInterface> output2 = new MyList<ValueInterface>();
+        StackInterface<StatementInterface> stack2 = new MyStack<>();
+        DictionaryInterface<String, ValueInterface> symbolTable2 = new MyDictionary<>();
+        ListInterface<ValueInterface> output2 = new MyList<>();
         DictionaryInterface<StringValue, BufferedReader> fileTable2 = new MyDictionary<>();
 
         StatementInterface statement2 = new CompoundStatement(new VariableDeclarationStatement("a",new IntType()),
@@ -69,9 +68,9 @@ public class Interpreter {
         }
 
 
-        StackInterface<StatementInterface> stack3 = new MyStack<StatementInterface>();
-        DictionaryInterface<String, ValueInterface> symbolTable3 = new MyDictionary<String, ValueInterface>();
-        ListInterface<ValueInterface> output3 = new MyList<ValueInterface>();
+        StackInterface<StatementInterface> stack3 = new MyStack<>();
+        DictionaryInterface<String, ValueInterface> symbolTable3 = new MyDictionary<>();
+        ListInterface<ValueInterface> output3 = new MyList<>();
         DictionaryInterface<StringValue, BufferedReader> fileTable3 = new MyDictionary<>();
 
         StatementInterface statement3 = new CompoundStatement(new VariableDeclarationStatement("a",new BoolType()),
@@ -93,9 +92,9 @@ public class Interpreter {
         }
 
 
-        StackInterface<StatementInterface> stack4 = new MyStack<StatementInterface>();
-        DictionaryInterface<String, ValueInterface> symbolTable4 = new MyDictionary<String, ValueInterface>();
-        ListInterface<ValueInterface> output4 = new MyList<ValueInterface>();
+        StackInterface<StatementInterface> stack4 = new MyStack<>();
+        DictionaryInterface<String, ValueInterface> symbolTable4 = new MyDictionary<>();
+        ListInterface<ValueInterface> output4 = new MyList<>();
         DictionaryInterface<StringValue, BufferedReader> fileTable4 = new MyDictionary<>();
 
         ExpressionInterface filename4=new ValueExpression(new StringValue("C:\\Users\\paula\\IdeaProjects\\ToyLanguageInterpreter\\test.in"));
