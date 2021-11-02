@@ -32,7 +32,7 @@ public class Interpreter {
                 new CompoundStatement(new AssignmentStatement("v", new ValueExpression(new IntValue(2))),
                         new PrintStatement(new VariableExpression("v"))));
         try {
-            RepositoryInterface repository1 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile.txt");
+            RepositoryInterface repository1 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile1.txt");
             Controller controller1 = new Controller(repository1);
             ProgramState currentProgramState1 = new ProgramState(stack1, symbolTable1, output1, statement1, fileTable1);
             stack1.push(statement1);
@@ -56,7 +56,7 @@ public class Interpreter {
                                 new CompoundStatement(new AssignmentStatement("b",new ArithmeticExpression("+",new VariableExpression("a"), new ValueExpression(new
                                         IntValue(1)))), new PrintStatement(new VariableExpression("b"))))));
         try {
-            RepositoryInterface repository2 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile.txt");
+            RepositoryInterface repository2 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile2.txt");
             Controller controller2 = new Controller(repository2);
             ProgramState currentProgramState2 = new ProgramState(stack2, symbolTable2, output2, statement2, fileTable2);
             stack2.push(statement2);
@@ -80,7 +80,7 @@ public class Interpreter {
                                         IntValue(2))), new AssignmentStatement("v", new ValueExpression(new IntValue(3)))), new PrintStatement(new
                                         VariableExpression("v"))))));
         try {
-            RepositoryInterface repository3 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile.txt");
+            RepositoryInterface repository3 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile3.txt");
             Controller controller3 = new Controller(repository3);
             ProgramState currentProgramState3 = new ProgramState(stack3, symbolTable3, output3, statement3, fileTable3);
             stack3.push(statement3);
@@ -106,7 +106,7 @@ public class Interpreter {
                                                 new CompoundStatement(new ReadFileStatement(filename4, "v"), new PrintStatement(new VariableExpression("v"))),
                                                 new PrintStatement(new ValueExpression(new IntValue(-1)))), new CloseReadFileStatement(filename4))))));
         try {
-            RepositoryInterface repository4 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile.txt");
+            RepositoryInterface repository4 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile4.txt");
             Controller controller4 = new Controller(repository4);
             ProgramState currentProgramState4 = new ProgramState(stack4, symbolTable4, output4, statement4, fileTable4);
             stack4.push(statement4);
@@ -131,7 +131,7 @@ public class Interpreter {
 //                                                new CompoundStatement(new PrintStatement(new VariableExpression("variable")),
 //                                                        new CloseReadFileStatement(new VariableExpression("filePath"))))))));
 //        try {
-//            RepositoryInterface repository5 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile.txt");
+//            RepositoryInterface repository5 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile5.txt");
 //            Controller controller5 = new Controller(repository5);
 //            ProgramState currentProgramState5 = new ProgramState(stack5, symbolTable5, output5, statement5, fileTable5);
 //            stack5.push(statement5);

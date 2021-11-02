@@ -1,0 +1,48 @@
+
+Execution stack:
+(int v;(v=2;print(v)))
+Symbol table:
+Output:
+File table:
+
+
+Execution stack:
+int v
+(v=2;print(v))
+Symbol table:
+Output:
+File table:
+
+
+Execution stack:
+(v=2;print(v))
+Symbol table:
+v = 0
+Output:
+File table:
+
+
+Execution stack:
+v=2
+print(v)
+Symbol table:
+v = 0
+Output:
+File table:
+
+
+Execution stack:
+print(v)
+Symbol table:
+v = 2
+Output:
+File table:
+
+
+Execution stack:
+Symbol table:
+v = 2
+Output:
+2
+File table:
+
