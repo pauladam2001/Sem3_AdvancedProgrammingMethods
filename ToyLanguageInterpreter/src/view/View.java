@@ -3,16 +3,17 @@ package view;
 import controller.Controller;
 import model.ADT.*;
 import model.ProgramState;
-import model.expression.ArithmeticExpression;
-import model.expression.ValueExpression;
-import model.expression.VariableExpression;
+import model.expression.*;
 import model.statement.*;
 import model.type.BoolType;
 import model.type.IntType;
+import model.type.StringType;
 import model.value.BoolValue;
 import model.value.IntValue;
+import model.value.StringValue;
 import model.value.ValueInterface;
 
+import java.io.BufferedReader;
 import java.util.Scanner;
 
 public class View {
@@ -26,6 +27,7 @@ public class View {
         System.out.println("Program 1: int v; v=2; print(v)");
         System.out.println("Program 2: int a; int b; a=2+3*5; b=a+1; print(b)");
         System.out.println("Program 3: bool a; int v; a=true; (if a then v=2 else v=3); print(v)");
+        System.out.println("Program 4: string varf; varf = 'test.in'; openReadFile(varf); int varc; readFile(varf, varc); print(varc); readFile(varf, varc); print(varc); closeReadFile(varf);");
         System.out.println("Your option: ");
 
         int option;
@@ -48,7 +50,7 @@ public class View {
                                     new CompoundStatement(new AssignmentStatement("b",new ArithmeticExpression("+",new VariableExpression("a"), new ValueExpression(new
                                             IntValue(1)))), new PrintStatement(new VariableExpression("b"))))));
         }
-        else {
+        else if (option == 3) {
             statement = new CompoundStatement(new VariableDeclarationStatement("a",new BoolType()),
                     new CompoundStatement(new VariableDeclarationStatement("v", new IntType()),
                             new CompoundStatement(new AssignmentStatement("a", new ValueExpression(new BoolValue(true))),
@@ -56,11 +58,22 @@ public class View {
                                             IntValue(2))), new AssignmentStatement("v", new ValueExpression(new IntValue(3)))), new PrintStatement(new
                                             VariableExpression("v"))))));
         }
+        else {
+            ExpressionInterface filename=new ValueExpression(new StringValue("C:\\Users\\paula\\IdeaProjects\\ToyLanguageInterpreter\\test.in"));
+            statement = new CompoundStatement(new OpenReadFileStatement(filename),
+                    new CompoundStatement(new VariableDeclarationStatement("v",new IntType()),
+                            new CompoundStatement(new ReadFileStatement(filename, "v"),
+                                    new CompoundStatement(new PrintStatement(new VariableExpression("v")),
+                                            new CompoundStatement(new IfStatement(new RelationalExpression(new VariableExpression("v"),new ValueExpression(new IntValue(2)),">="),
+                                                    new CompoundStatement(new ReadFileStatement(filename, "v"), new PrintStatement(new VariableExpression("v"))),
+                                                    new PrintStatement(new ValueExpression(new IntValue(-1)))), new CloseReadFileStatement(filename))))));
+        }
 
         StackInterface<StatementInterface> stack = new MyStack<StatementInterface>();
         DictionaryInterface<String, ValueInterface> symbolTable = new MyDictionary<String, ValueInterface>();
         ListInterface<ValueInterface> output = new MyList<ValueInterface>();
-        ProgramState currentProgramState = new ProgramState(stack, symbolTable, output, statement);
+        DictionaryInterface<StringValue, BufferedReader> fileTable = new MyDictionary<>();
+        ProgramState currentProgramState = new ProgramState(stack, symbolTable, output, statement, fileTable);
         stack.push(statement);
         this.controller.addProgramState(currentProgramState);
 

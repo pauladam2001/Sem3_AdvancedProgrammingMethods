@@ -44,7 +44,7 @@ public class MyDictionary<TKey, TValue> implements DictionaryInterface<TKey, TVa
 
     @Override
     public String toString() {
-        String str = "Symbol table:\n";
+        String str = "";
         Collection<TKey> allKeys = dictionary.keySet();    // keyset() creates a set out of the key elements contained in the hash table
         for (TKey key: allKeys)
 //            str += "key " + key.toString() + ", value " + dictionary.get(key).toString() + "\n";

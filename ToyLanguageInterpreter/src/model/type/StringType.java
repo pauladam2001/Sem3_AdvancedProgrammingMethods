@@ -1,21 +1,21 @@
 package model.type;
 
-import model.value.BoolValue;
+import model.value.StringValue;
 import model.value.ValueInterface;
 
-public class BoolType implements TypeInterface {
+public class StringType implements TypeInterface {
     @Override
     public boolean equals(Object another) {
-        return (another instanceof BoolType);
+        return (another instanceof StringType);
     }
 
     @Override
     public ValueInterface defaultValue() {
-        return new BoolValue(false);
+        return new StringValue("");
     }
 
     @Override
     public String toString() {
-        return "bool";
+        return "string";
     }
 }

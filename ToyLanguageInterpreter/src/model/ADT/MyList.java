@@ -33,7 +33,7 @@ public class MyList<TElem> implements ListInterface<TElem> {
 
     @Override
     public String toString() {
-        String str = "Output:\n";
+        String str = "";
         for (TElem elem: list)
             str += elem.toString() + "\n";
         return str;

@@ -12,11 +12,9 @@ import repository.InMemoryRepository;
 
 public class Controller {
     private Repository repository;
-    private Integer size;
 
     public Controller(Integer size) {
-        this.size = size;
-        this.repository = new InMemoryRepository(size);
+        this.repository = new InMemoryRepository(size);   //  this.repository = new InMemoryRepository(size, new Flour(25), new Sugar(20))
         this.addStart();
     }
 
@@ -43,16 +41,12 @@ public class Controller {
     }
 
     public void removeController(Integer price, String type) throws ElementNotFoundException, InvalidTypeException {
-        Food foodToBeRemoved;
-
-        if (type.equals("Flour"))
-            foodToBeRemoved = new Flour(price);
-        else if (type.equals("Salt"))
-            foodToBeRemoved = new Salt(price);
-        else if (type.equals("Sugar"))
-            foodToBeRemoved = new Sugar(price);
-        else
-            throw new InvalidTypeException("Invalid type!");
+        Food foodToBeRemoved = switch (type) {
+            case "Flour" -> new Flour(price);
+            case "Salt" -> new Salt(price);
+            case "Sugar" -> new Sugar(price);
+            default -> throw new InvalidTypeException("Invalid type!");
+        };
 
         this.repository.removeFood(foodToBeRemoved);
     }
@@ -65,7 +59,7 @@ public class Controller {
         Food[] data = this.getData();
         Food[] filteredProducts = new Food[data.length];
         int currSize = 0, i = 0;
-        while (data[i] != null && i < data.length) {
+        while (data[i] != null) {
             if (data[i].getPrice() > Food.MIN_PRICE) {
                 filteredProducts[currSize] = data[i];
                 currSize++;

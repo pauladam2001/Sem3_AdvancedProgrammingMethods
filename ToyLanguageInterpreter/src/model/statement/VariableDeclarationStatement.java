@@ -6,6 +6,7 @@ import model.ADT.DictionaryInterface;
 import model.ProgramState;
 import model.type.BoolType;
 import model.type.IntType;
+import model.type.StringType;
 import model.type.TypeInterface;
 import model.value.BoolValue;
 import model.value.IntValue;
@@ -28,9 +29,11 @@ public class VariableDeclarationStatement implements StatementInterface {
             throw new AlreadyDefinedVariableException("Variable " + name + " is already defined!");
 
         if (type instanceof IntType)
-            symbolTable.add(name, new IntValue(-1));        // -1 = default value
+            symbolTable.add(name, type.defaultValue());        // -1 = default value
         else if (type instanceof BoolType)
-            symbolTable.add(name, new BoolValue(false));    // false = default value
+            symbolTable.add(name, type.defaultValue());    // false = default value
+        else if (type instanceof StringType)
+            symbolTable.add(name, type.defaultValue());     // "" = default value
         else
             throw new InvalidTypeException("Invalid type for variable " + name);
 

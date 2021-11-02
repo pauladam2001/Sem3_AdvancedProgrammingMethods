@@ -11,9 +11,9 @@ public class InMemoryRepository implements Repository {
     private Integer currentSize;
     private final Integer size;
 
-    public InMemoryRepository(Integer size) {
+    public InMemoryRepository(Integer size) {           //public InMemoryRepository(Food... items) { this.data = items;}
         this.size = size;
-        this.data = new Food[this.size];
+        this.data = new Food[this.size];                //this.data = items;
         this.currentSize = 0;
     }
 

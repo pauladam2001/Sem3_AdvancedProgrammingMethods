@@ -26,12 +26,14 @@ public class Controller {
     }
 
     public void allStepsExecution() throws Exception {
+        repository.clearLogFile();
         ProgramState currentProgramState = repository.getCurrentProgramState();
-            System.out.println(currentProgramState);
+//        System.out.println(currentProgramState);
+        repository.logProgramStateExecution();
         while (currentProgramState.getExecutionStack().size() > 0) {
             oneStepExecution(currentProgramState);
-            // display the program state if we want
-            System.out.println(currentProgramState);
+//            System.out.println(currentProgramState);
+            repository.logProgramStateExecution();
         }
     }
 }

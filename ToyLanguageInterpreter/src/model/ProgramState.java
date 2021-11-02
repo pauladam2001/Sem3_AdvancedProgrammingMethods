@@ -4,20 +4,25 @@ import model.ADT.DictionaryInterface;
 import model.ADT.ListInterface;
 import model.ADT.StackInterface;
 import model.statement.StatementInterface;
+import model.value.StringValue;
 import model.value.ValueInterface;
+
+import java.io.BufferedReader;
 
 public class ProgramState {
     private StackInterface<StatementInterface> executionStack;
     private DictionaryInterface<String, ValueInterface> symbolTable;
     private ListInterface<ValueInterface> output;
+    private DictionaryInterface<StringValue, BufferedReader> fileTable;
 
 //    private StatementInterface originalProgram;   // optional field, but good to have
 
     public ProgramState(StackInterface<StatementInterface> executionStack, DictionaryInterface<String, ValueInterface> symbolTable,
-                        ListInterface<ValueInterface> output, StatementInterface program) {
+                        ListInterface<ValueInterface> output, StatementInterface program, DictionaryInterface<StringValue, BufferedReader> fileTable) {
         this.executionStack = executionStack;
         this.symbolTable = symbolTable;
         this.output = output;
+        this.fileTable = fileTable;
 //        originalProgram = program.deepcopy();  // ?
     }
 
@@ -33,6 +38,10 @@ public class ProgramState {
         return output;
     }
 
+    public DictionaryInterface<StringValue, BufferedReader> getFileTable() {
+        return fileTable;
+    }
+
     public void setExecutionStack(StackInterface<StatementInterface> stack) {
         executionStack = stack;
     }
@@ -45,8 +54,13 @@ public class ProgramState {
         output = ot;
     }
 
+    public void setFileTable(DictionaryInterface<StringValue, BufferedReader> filetbl) {
+        fileTable = filetbl;
+    }
+
     public String toString() {
 //        return executionStack.toString() + "\n" + symbolTable.toString() + "\n" + output.toString() + "\n";
-        return executionStack.toString() + symbolTable.toString() + output.toString() + "\n";
+        return "\nExecution stack:\n" + executionStack.toString() + "Symbol table:\n" + symbolTable.toString() +
+                "Output:\n" +output.toString() + "File table:\n" + fileTable.toString() + "\n";
     }
 }

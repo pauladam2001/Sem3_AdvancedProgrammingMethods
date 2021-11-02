@@ -29,7 +29,7 @@ public class MyStack<TElem> implements StackInterface<TElem> {
 
     @Override
     public String toString() {
-        String str = "Execution stack:\n";
+        String str = "";
         for (TElem elem: stack)
             str += elem.toString() + "\n";
         return str;
