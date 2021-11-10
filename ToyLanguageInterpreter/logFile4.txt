@@ -1,145 +1,124 @@
 
 Execution stack:
-(openRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);(int v;(readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);(print(v);(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in))))))
+(int a;(bool b;(int c;(c=7;(IF (c > a) THEN (b=true) ELSE (b=false);print(b))))))
 Symbol table:
 Output:
 File table:
 
 
 Execution stack:
-openRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)
-(int v;(readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);(print(v);(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)))))
+int a
+(bool b;(int c;(c=7;(IF (c > a) THEN (b=true) ELSE (b=false);print(b)))))
 Symbol table:
 Output:
 File table:
 
 
 Execution stack:
-(int v;(readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);(print(v);(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)))))
+(bool b;(int c;(c=7;(IF (c > a) THEN (b=true) ELSE (b=false);print(b)))))
 Symbol table:
+a = 0
 Output:
 File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in = java.io.BufferedReader@7a07c5b4
 
 
 Execution stack:
-int v
-(readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);(print(v);(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in))))
+bool b
+(int c;(c=7;(IF (c > a) THEN (b=true) ELSE (b=false);print(b))))
 Symbol table:
+a = 0
 Output:
 File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in = java.io.BufferedReader@7a07c5b4
 
 
 Execution stack:
-(readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);(print(v);(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in))))
+(int c;(c=7;(IF (c > a) THEN (b=true) ELSE (b=false);print(b))))
 Symbol table:
-v = 0
+a = 0
+b = false
 Output:
 File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in = java.io.BufferedReader@7a07c5b4
 
 
 Execution stack:
-readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)
-(print(v);(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)))
+int c
+(c=7;(IF (c > a) THEN (b=true) ELSE (b=false);print(b)))
 Symbol table:
-v = 0
+a = 0
+b = false
 Output:
 File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in = java.io.BufferedReader@7a07c5b4
 
 
 Execution stack:
-(print(v);(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)))
+(c=7;(IF (c > a) THEN (b=true) ELSE (b=false);print(b)))
 Symbol table:
-v = 15
+a = 0
+b = false
+c = 0
 Output:
 File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in = java.io.BufferedReader@7a07c5b4
 
 
 Execution stack:
-print(v)
-(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in))
+c=7
+(IF (c > a) THEN (b=true) ELSE (b=false);print(b))
 Symbol table:
-v = 15
+a = 0
+b = false
+c = 0
 Output:
 File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in = java.io.BufferedReader@7a07c5b4
 
 
 Execution stack:
-(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in))
+(IF (c > a) THEN (b=true) ELSE (b=false);print(b))
 Symbol table:
-v = 15
+a = 0
+b = false
+c = 7
 Output:
-15
 File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in = java.io.BufferedReader@7a07c5b4
 
 
 Execution stack:
-IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1))
-closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)
+IF (c > a) THEN (b=true) ELSE (b=false)
+print(b)
 Symbol table:
-v = 15
+a = 0
+b = false
+c = 7
 Output:
-15
 File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in = java.io.BufferedReader@7a07c5b4
 
 
 Execution stack:
-(readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))
-closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)
+b=true
+print(b)
 Symbol table:
-v = 15
+a = 0
+b = false
+c = 7
 Output:
-15
 File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in = java.io.BufferedReader@7a07c5b4
 
 
 Execution stack:
-readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)
-print(v)
-closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)
+print(b)
 Symbol table:
-v = 15
+a = 0
+b = true
+c = 7
 Output:
-15
 File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in = java.io.BufferedReader@7a07c5b4
-
-
-Execution stack:
-print(v)
-closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)
-Symbol table:
-v = 25
-Output:
-15
-File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in = java.io.BufferedReader@7a07c5b4
-
-
-Execution stack:
-closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)
-Symbol table:
-v = 25
-Output:
-15
-25
-File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in = java.io.BufferedReader@7a07c5b4
 
 
 Execution stack:
 Symbol table:
-v = 25
+a = 0
+b = true
+c = 7
 Output:
-15
-25
+true
 File table:
 

@@ -14,15 +14,18 @@ public class ProgramState {
     private DictionaryInterface<String, ValueInterface> symbolTable;
     private ListInterface<ValueInterface> output;
     private DictionaryInterface<StringValue, BufferedReader> fileTable;
+    private DictionaryInterface<Integer, ValueInterface> heap;
 
 //    private StatementInterface originalProgram;   // optional field, but good to have
 
     public ProgramState(StackInterface<StatementInterface> executionStack, DictionaryInterface<String, ValueInterface> symbolTable,
-                        ListInterface<ValueInterface> output, StatementInterface program, DictionaryInterface<StringValue, BufferedReader> fileTable) {
+                        ListInterface<ValueInterface> output, StatementInterface program, DictionaryInterface<StringValue, BufferedReader> fileTable,
+                        DictionaryInterface<Integer, ValueInterface> heap) {
         this.executionStack = executionStack;
         this.symbolTable = symbolTable;
         this.output = output;
         this.fileTable = fileTable;
+        this.heap = heap;
 //        originalProgram = program.deepcopy();  // ?
     }
 
@@ -40,6 +43,10 @@ public class ProgramState {
 
     public DictionaryInterface<StringValue, BufferedReader> getFileTable() {
         return fileTable;
+    }
+
+    public DictionaryInterface<Integer, ValueInterface> getHeap() {
+        return heap;
     }
 
     public void setExecutionStack(StackInterface<StatementInterface> stack) {
@@ -61,6 +68,7 @@ public class ProgramState {
     public String toString() {
 //        return executionStack.toString() + "\n" + symbolTable.toString() + "\n" + output.toString() + "\n";
         return "\nExecution stack:\n" + executionStack.toString() + "Symbol table:\n" + symbolTable.toString() +
-                "Output:\n" +output.toString() + "File table:\n" + fileTable.toString() + "\n";
+                "Output:\n" +output.toString() + "File table:\n" + fileTable.toString() + "Heap:\n" +
+                heap.toString() + "\n";
     }
 }

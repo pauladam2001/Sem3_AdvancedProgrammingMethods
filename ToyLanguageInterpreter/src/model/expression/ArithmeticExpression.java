@@ -20,12 +20,12 @@ public class ArithmeticExpression implements ExpressionInterface {
     }
 
     @Override
-    public ValueInterface evaluate(DictionaryInterface<String, ValueInterface> symbolTable) throws Exception {
+    public ValueInterface evaluate(DictionaryInterface<String, ValueInterface> symbolTable, DictionaryInterface<Integer, ValueInterface> heap) throws Exception {
         ValueInterface firstValue, secondValue;
-        firstValue = firstExpression.evaluate(symbolTable);
+        firstValue = firstExpression.evaluate(symbolTable, heap);
         if (!firstValue.getType().equals(new IntType()))
             throw new InvalidTypeException("First operand is not an integer!");
-        secondValue = secondExpression.evaluate(symbolTable);
+        secondValue = secondExpression.evaluate(symbolTable, heap);
         if (!secondValue.getType().equals(new IntType()))
             throw new InvalidTypeException("Second operand is not an integer!");
 

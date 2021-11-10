@@ -22,9 +22,10 @@ public class AssignmentStatement implements StatementInterface {
     public ProgramState execute(ProgramState state) throws Exception {
         StackInterface<StatementInterface> stack = state.getExecutionStack();
         DictionaryInterface<String, ValueInterface> symbolTable = state.getSymbolTable();
+        DictionaryInterface<Integer, ValueInterface> heap = state.getHeap();
 
         if (symbolTable.isDefined(variableName)) {
-            ValueInterface value = expression.evaluate(symbolTable);
+            ValueInterface value = expression.evaluate(symbolTable, heap);
             TypeInterface typeId = (symbolTable.getValue(variableName)).getType();
             if (value.getType().equals(typeId))
                 symbolTable.update(variableName, value);

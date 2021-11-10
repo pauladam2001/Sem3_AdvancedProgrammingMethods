@@ -24,10 +24,11 @@ public class View {
     }
 
     private void inputMenu() {
-        System.out.println("Program 1: int v; v=2; print(v)");
-        System.out.println("Program 2: int a; int b; a=2+3*5; b=a+1; print(b)");
-        System.out.println("Program 3: bool a; int v; a=true; (if a then v=2 else v=3); print(v)");
-        System.out.println("Program 4: string varf; varf = 'test.in'; openReadFile(varf); int varc; readFile(varf, varc); print(varc); readFile(varf, varc); print(varc); closeReadFile(varf);");
+        System.out.println("Program 1: int v; v=2; print(v);");
+        System.out.println("Program 2: int a; int b; a=2+3*5; b=a+1; print(b);");
+        System.out.println("Program 3: bool a; int v; a=true; (if a then v=2 else v=3); print(v);");
+        System.out.println("Program 4: int a; bool b; int c; c=7; (if c>a then b=true else b=false); print(b);");
+        System.out.println("Program 5: string varf; varf = 'test.in'; openReadFile(varf); int varc; readFile(varf, varc); print(varc); readFile(varf, varc); print(varc); closeReadFile(varf);");
         System.out.println("Your option: ");
 
         int option;
@@ -58,6 +59,15 @@ public class View {
                                             IntValue(2))), new AssignmentStatement("v", new ValueExpression(new IntValue(3)))), new PrintStatement(new
                                             VariableExpression("v"))))));
         }
+        else if (option == 4) {
+             statement = new CompoundStatement(new VariableDeclarationStatement("a",new IntType()),
+                    new CompoundStatement(new VariableDeclarationStatement("b",new BoolType()),
+                            new CompoundStatement(new VariableDeclarationStatement("c",new IntType()),
+                                    new CompoundStatement(new AssignmentStatement("c",new ValueExpression(new IntValue(7))),
+                                            new CompoundStatement(new IfStatement(new RelationalExpression(new VariableExpression("c"),
+                                                    new VariableExpression("a"), ">"), new AssignmentStatement("b",new ValueExpression(new BoolValue(true))),
+                                                    new AssignmentStatement("b",new ValueExpression(new BoolValue(false)))),new PrintStatement(new VariableExpression("b")))))));
+        }
         else {
             ExpressionInterface filename=new ValueExpression(new StringValue("C:\\Users\\paula\\IdeaProjects\\ToyLanguageInterpreter\\test.in"));
             statement = new CompoundStatement(new OpenReadFileStatement(filename),
@@ -73,7 +83,8 @@ public class View {
         DictionaryInterface<String, ValueInterface> symbolTable = new MyDictionary<String, ValueInterface>();
         ListInterface<ValueInterface> output = new MyList<ValueInterface>();
         DictionaryInterface<StringValue, BufferedReader> fileTable = new MyDictionary<>();
-        ProgramState currentProgramState = new ProgramState(stack, symbolTable, output, statement, fileTable);
+        DictionaryInterface<Integer, ValueInterface> heap = new MyHeap<>();
+        ProgramState currentProgramState = new ProgramState(stack, symbolTable, output, statement, fileTable, heap);
         stack.push(statement);
         this.controller.addProgramState(currentProgramState);
 

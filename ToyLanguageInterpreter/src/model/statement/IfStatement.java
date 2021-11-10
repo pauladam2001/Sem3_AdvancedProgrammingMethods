@@ -24,8 +24,9 @@ public class IfStatement implements StatementInterface {
     public ProgramState execute(ProgramState state) throws Exception {
         StackInterface<StatementInterface> stack = state.getExecutionStack();
         DictionaryInterface<String, ValueInterface> symbolTable = state.getSymbolTable();
+        DictionaryInterface<Integer, ValueInterface> heap = state.getHeap();
 
-        ValueInterface expressionValue = this.expression.evaluate(symbolTable);
+        ValueInterface expressionValue = this.expression.evaluate(symbolTable, heap);
 
         if (expressionValue.getType().equals(new BoolType())) {
             if (((BoolValue) expressionValue).getValue())   // == true

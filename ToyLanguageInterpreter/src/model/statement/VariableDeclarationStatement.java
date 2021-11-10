@@ -4,10 +4,7 @@ import exceptions.AlreadyDefinedVariableException;
 import exceptions.InvalidTypeException;
 import model.ADT.DictionaryInterface;
 import model.ProgramState;
-import model.type.BoolType;
-import model.type.IntType;
-import model.type.StringType;
-import model.type.TypeInterface;
+import model.type.*;
 import model.value.BoolValue;
 import model.value.IntValue;
 import model.value.ValueInterface;
@@ -34,6 +31,8 @@ public class VariableDeclarationStatement implements StatementInterface {
             symbolTable.add(name, type.defaultValue());    // false = default value
         else if (type instanceof StringType)
             symbolTable.add(name, type.defaultValue());     // "" = default value
+        else if (type instanceof ReferenceType)
+            symbolTable.add(name, type.defaultValue());
         else
             throw new InvalidTypeException("Invalid type for variable " + name);
 

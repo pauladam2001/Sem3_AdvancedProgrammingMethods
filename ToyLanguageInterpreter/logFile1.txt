@@ -4,6 +4,7 @@ Execution stack:
 Symbol table:
 Output:
 File table:
+Heap:
 
 
 Execution stack:
@@ -12,37 +13,42 @@ int v
 Symbol table:
 Output:
 File table:
+Heap:
 
 
 Execution stack:
 (v=2;print(v))
 Symbol table:
-v = 0
+v -> 0
 Output:
 File table:
+Heap:
 
 
 Execution stack:
 v=2
 print(v)
 Symbol table:
-v = 0
+v -> 0
 Output:
 File table:
+Heap:
 
 
 Execution stack:
 print(v)
 Symbol table:
-v = 2
+v -> 2
 Output:
 File table:
+Heap:
 
 
 Execution stack:
 Symbol table:
-v = 2
+v -> 2
 Output:
 2
 File table:
+Heap:
 

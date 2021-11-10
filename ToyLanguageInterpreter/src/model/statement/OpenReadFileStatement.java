@@ -22,7 +22,8 @@ public class OpenReadFileStatement implements StatementInterface {
     public ProgramState execute(ProgramState state) throws Exception {
         DictionaryInterface<String, ValueInterface> symbolTable = state.getSymbolTable();
         DictionaryInterface<StringValue, BufferedReader> fileTable = state.getFileTable();
-        ValueInterface filePathValue = filePath.evaluate(symbolTable);
+        DictionaryInterface<Integer, ValueInterface> heap = state.getHeap();
+        ValueInterface filePathValue = filePath.evaluate(symbolTable, heap);
 
         if (filePathValue.getType().equals(new StringType())) {
             String filePathString = ((StringValue)filePathValue).getValue();    // casting

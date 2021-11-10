@@ -2,6 +2,7 @@ package model.ADT;
 
 import model.ADT.DictionaryInterface;
 
+import java.text.CollationElementIterator;
 import java.util.Collection;
 import java.util.HashMap;
 
@@ -43,12 +44,22 @@ public class MyDictionary<TKey, TValue> implements DictionaryInterface<TKey, TVa
     }
 
     @Override
+    public void setContent(HashMap<TKey, TValue> newContent) {
+        this.dictionary = newContent;
+    }
+
+    @Override
+    public HashMap<TKey,TValue> getContent() {
+        return dictionary;
+    }
+
+    @Override
     public String toString() {
         String str = "";
         Collection<TKey> allKeys = dictionary.keySet();    // keyset() creates a set out of the key elements contained in the hash table
         for (TKey key: allKeys)
 //            str += "key " + key.toString() + ", value " + dictionary.get(key).toString() + "\n";
-            str += key.toString() + " = " + dictionary.get(key).toString() + "\n";
+            str += key.toString() + " -> " + dictionary.get(key).toString() + "\n";
         return str;
     }
 }
