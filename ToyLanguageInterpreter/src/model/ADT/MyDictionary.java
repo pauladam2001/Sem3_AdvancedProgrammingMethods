@@ -54,6 +54,13 @@ public class MyDictionary<TKey, TValue> implements DictionaryInterface<TKey, TVa
     }
 
     @Override
+    public DictionaryInterface<TKey, TValue> clone() {
+        DictionaryInterface<TKey, TValue> newDictionary = new MyDictionary<>();
+        dictionary.forEach(newDictionary::add);
+        return newDictionary;
+    }
+
+    @Override
     public String toString() {
         String str = "";
         Collection<TKey> allKeys = dictionary.keySet();    // keyset() creates a set out of the key elements contained in the hash table

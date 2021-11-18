@@ -36,7 +36,7 @@ public class VariableDeclarationStatement implements StatementInterface {
         else
             throw new InvalidTypeException("Invalid type for variable " + name);
 
-        return state;
+        return null;
     }
 
     @Override

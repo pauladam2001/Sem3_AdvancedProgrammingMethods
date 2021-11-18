@@ -20,7 +20,7 @@ import java.io.BufferedReader;
 public class Interpreter {
     public static void main(String[] args) {
         TextMenu menu = new TextMenu();
-        menu.addCommand(new ExitCommand("0", "exit"));
+        menu.addCommand(new ExitCommand("0", "Exit;"));
 
 
         StackInterface<StatementInterface> stack1 = new MyStack<>();
@@ -38,7 +38,6 @@ public class Interpreter {
             RepositoryInterface repository1 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile1.txt");
             Controller controller1 = new Controller(repository1);
             ProgramState currentProgramState1 = new ProgramState(stack1, symbolTable1, output1, statement1, fileTable1, heap1);
-            stack1.push(statement1);
             controller1.addProgramState(currentProgramState1);
 
             menu.addCommand(new RunExampleCommand("1", statement1.toString(), controller1));
@@ -64,7 +63,6 @@ public class Interpreter {
             RepositoryInterface repository2 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile2.txt");
             Controller controller2 = new Controller(repository2);
             ProgramState currentProgramState2 = new ProgramState(stack2, symbolTable2, output2, statement2, fileTable2, heap2);
-            stack2.push(statement2);
             controller2.addProgramState(currentProgramState2);
 
             menu.addCommand(new RunExampleCommand("2", statement2.toString(), controller2));
@@ -90,7 +88,6 @@ public class Interpreter {
             RepositoryInterface repository3 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile3.txt");
             Controller controller3 = new Controller(repository3);
             ProgramState currentProgramState3 = new ProgramState(stack3, symbolTable3, output3, statement3, fileTable3, heap3);
-            stack3.push(statement3);
             controller3.addProgramState(currentProgramState3);
 
             menu.addCommand(new RunExampleCommand("3", statement3.toString(), controller3));
@@ -117,7 +114,6 @@ public class Interpreter {
             RepositoryInterface repository4 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile4.txt");
             Controller controller4 = new Controller(repository4);
             ProgramState currentProgramState4 = new ProgramState(stack4, symbolTable4, output4, statement4, fileTable4, heap4);
-            stack4.push(statement4);
             controller4.addProgramState(currentProgramState4);
 
             menu.addCommand(new RunExampleCommand("4", statement4.toString(), controller4));
@@ -145,7 +141,6 @@ public class Interpreter {
             RepositoryInterface repository5 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile5.txt");
             Controller controller5 = new Controller(repository5);
             ProgramState currentProgramState4 = new ProgramState(stack5, symbolTable5, output5, statement5, fileTable5, heap5);
-            stack5.push(statement5);
             controller5.addProgramState(currentProgramState4);
 
             menu.addCommand(new RunExampleCommand("5", statement5.toString(), controller5));
@@ -171,7 +166,6 @@ public class Interpreter {
             RepositoryInterface repository6 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile6.txt");
             Controller controller6 = new Controller(repository6);
             ProgramState currentProgramState6 = new ProgramState(stack6, symbolTable6, output6, statement6, fileTable6, heap6);
-            stack6.push(statement6);
             controller6.addProgramState(currentProgramState6);
 
             menu.addCommand(new RunExampleCommand("6", statement6.toString(), controller6));
@@ -197,7 +191,6 @@ public class Interpreter {
             RepositoryInterface repository7 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile7.txt");
             Controller controller7 = new Controller(repository7);
             ProgramState currentProgramState7 = new ProgramState(stack7, symbolTable7, output7, statement7, fileTable7, heap7);
-            stack7.push(statement7);
             controller7.addProgramState(currentProgramState7);
 
             menu.addCommand(new RunExampleCommand("7", statement7.toString(), controller7));
@@ -223,7 +216,6 @@ public class Interpreter {
             RepositoryInterface repository8 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile8.txt");
             Controller controller8 = new Controller(repository8);
             ProgramState currentProgramState8 = new ProgramState(stack8, symbolTable8, output8, statement8, fileTable8, heap8);
-            stack8.push(statement8);
             controller8.addProgramState(currentProgramState8);
 
             menu.addCommand(new RunExampleCommand("8", statement8.toString(), controller8));
@@ -248,7 +240,6 @@ public class Interpreter {
             RepositoryInterface repository9 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile9.txt");
             Controller controller9 = new Controller(repository9);
             ProgramState currentProgramState9 = new ProgramState(stack9, symbolTable9, output9, statement9, fileTable9, heap9);
-            stack9.push(statement9);
             controller9.addProgramState(currentProgramState9);
 
             menu.addCommand(new RunExampleCommand("9", statement9.toString(), controller9));
@@ -274,13 +265,45 @@ public class Interpreter {
             RepositoryInterface repository10 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile10.txt");
             Controller controller10 = new Controller(repository10);
             ProgramState currentProgramState10 = new ProgramState(stack10, symbolTable10, output10, statement10, fileTable10, heap10);
-            stack10.push(statement10);
             controller10.addProgramState(currentProgramState10);
 
             menu.addCommand(new RunExampleCommand("10", statement10.toString(), controller10));
         } catch (Exception e) {
             System.out.print("Example 10: " + e.getMessage() + "\n");
         }
+
+
+        StackInterface<StatementInterface> stack11 = new MyStack<>();
+        DictionaryInterface<String, ValueInterface> symbolTable11 = new MyDictionary<>();
+        ListInterface<ValueInterface> output11 = new MyList<>();
+        DictionaryInterface<StringValue, BufferedReader> fileTable11 = new MyDictionary<>();
+        DictionaryInterface<Integer, ValueInterface> heap11 = new MyHeap<>();
+
+        // int v; Ref int a; v=10; new(a,22); fork(wH(a,30); v=32; print(v); print(rH(a))); print(v); print(rH(a));
+        StatementInterface statement11 = new CompoundStatement(new VariableDeclarationStatement("v",new IntType()),
+                new CompoundStatement(new VariableDeclarationStatement("a",new ReferenceType(new IntType())),
+                        new CompoundStatement(new AssignmentStatement("v",new ValueExpression(new IntValue(10))),
+                                new CompoundStatement(new HeapAllocationStatement("a",new ValueExpression(new IntValue(22))),
+                                        new CompoundStatement(
+                                                new ForkStatement(
+                                                        new CompoundStatement(new HeapWritingStatement("a",new ValueExpression(new IntValue(30))),
+                                                                new CompoundStatement(new AssignmentStatement("v",new ValueExpression(new IntValue(32))),
+                                                                        new CompoundStatement(new PrintStatement(new VariableExpression("v")),
+                                                                                new PrintStatement(new HeapReadingExpression(new VariableExpression("a"))))))
+                                                ),
+                                                new CompoundStatement(new PrintStatement(new VariableExpression("v")),
+                                                        new PrintStatement(new HeapReadingExpression(new VariableExpression("a")))))))));
+        try {
+            RepositoryInterface repository11 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile11.txt");
+            Controller controller11 = new Controller(repository11);
+            ProgramState currentProgramState11 = new ProgramState(stack11, symbolTable11, output11, statement11, fileTable11, heap11);
+            controller11.addProgramState(currentProgramState11);
+
+            menu.addCommand(new RunExampleCommand("11", statement11.toString(), controller11));
+        } catch (Exception e) {
+            System.out.print("Example 11: " + e.getMessage() + "\n");
+        }
+
 
         menu.show();
     }

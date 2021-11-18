@@ -36,7 +36,7 @@ public class IfStatement implements StatementInterface {
         }
         else
             throw new InvalidTypeException("Conditional expression is not a boolean!");
-        return state;
+        return null;
     }
 
     @Override

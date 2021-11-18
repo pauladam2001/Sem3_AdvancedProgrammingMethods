@@ -1,4 +1,5 @@
 
+Thread ID: 9
 Execution stack:
 (Ref(int) v;(new(v, 20);(print(read(v));((v) = 30;;print(read(v) + 5)))))
 Symbol table:
@@ -7,6 +8,7 @@ File table:
 Heap:
 
 
+Thread ID: 9
 Execution stack:
 Ref(int) v
 (new(v, 20);(print(read(v));((v) = 30;;print(read(v) + 5))))
@@ -16,6 +18,17 @@ File table:
 Heap:
 
 
+Thread ID: 9
+Execution stack:
+Ref(int) v
+(new(v, 20);(print(read(v));((v) = 30;;print(read(v) + 5))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 9
 Execution stack:
 (new(v, 20);(print(read(v));((v) = 30;;print(read(v) + 5))))
 Symbol table:
@@ -25,6 +38,17 @@ File table:
 Heap:
 
 
+Thread ID: 9
+Execution stack:
+(new(v, 20);(print(read(v));((v) = 30;;print(read(v) + 5))))
+Symbol table:
+v -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 9
 Execution stack:
 new(v, 20)
 (print(read(v));((v) = 30;;print(read(v) + 5)))
@@ -35,6 +59,18 @@ File table:
 Heap:
 
 
+Thread ID: 9
+Execution stack:
+new(v, 20)
+(print(read(v));((v) = 30;;print(read(v) + 5)))
+Symbol table:
+v -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 9
 Execution stack:
 (print(read(v));((v) = 30;;print(read(v) + 5)))
 Symbol table:
@@ -45,6 +81,18 @@ Heap:
 1 -> 20
 
 
+Thread ID: 9
+Execution stack:
+(print(read(v));((v) = 30;;print(read(v) + 5)))
+Symbol table:
+v -> (1, int)
+Output:
+File table:
+Heap:
+1 -> 20
+
+
+Thread ID: 9
 Execution stack:
 print(read(v))
 ((v) = 30;;print(read(v) + 5))
@@ -56,6 +104,19 @@ Heap:
 1 -> 20
 
 
+Thread ID: 9
+Execution stack:
+print(read(v))
+((v) = 30;;print(read(v) + 5))
+Symbol table:
+v -> (1, int)
+Output:
+File table:
+Heap:
+1 -> 20
+
+
+Thread ID: 9
 Execution stack:
 ((v) = 30;;print(read(v) + 5))
 Symbol table:
@@ -67,6 +128,19 @@ Heap:
 1 -> 20
 
 
+Thread ID: 9
+Execution stack:
+((v) = 30;;print(read(v) + 5))
+Symbol table:
+v -> (1, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+
+
+Thread ID: 9
 Execution stack:
 (v) = 30;
 print(read(v) + 5)
@@ -79,6 +153,20 @@ Heap:
 1 -> 20
 
 
+Thread ID: 9
+Execution stack:
+(v) = 30;
+print(read(v) + 5)
+Symbol table:
+v -> (1, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+
+
+Thread ID: 9
 Execution stack:
 print(read(v) + 5)
 Symbol table:
@@ -90,6 +178,19 @@ Heap:
 1 -> 30
 
 
+Thread ID: 9
+Execution stack:
+print(read(v) + 5)
+Symbol table:
+v -> (1, int)
+Output:
+20
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 9
 Execution stack:
 Symbol table:
 v -> (1, int)

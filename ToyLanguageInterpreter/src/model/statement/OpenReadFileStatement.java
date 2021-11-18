@@ -1,6 +1,7 @@
 package model.statement;
 
 import exceptions.AlreadyDefinedVariableException;
+import exceptions.InvalidTypeException;
 import model.ADT.DictionaryInterface;
 import model.ProgramState;
 import model.expression.ExpressionInterface;
@@ -29,11 +30,17 @@ public class OpenReadFileStatement implements StatementInterface {
             String filePathString = ((StringValue)filePathValue).getValue();    // casting
             if (fileTable.isDefined((StringValue)filePathValue))
                 throw new AlreadyDefinedVariableException("File path " + filePathString + " is already defined in the file table!");
-            BufferedReader fileBuffer = new BufferedReader(new FileReader(filePathString));
-            fileTable.add((StringValue)filePathValue, fileBuffer);
+            try {
+                BufferedReader fileBuffer = new BufferedReader(new FileReader(filePathString));
+                fileTable.add((StringValue)filePathValue, fileBuffer);
+            } catch (Exception e) {
+                throw new Exception(e.getMessage());
+            }
+        } else {
+            throw new InvalidTypeException("The file path is not a string!");
         }
 
-        return state;
+        return null;
     }
 
     @Override

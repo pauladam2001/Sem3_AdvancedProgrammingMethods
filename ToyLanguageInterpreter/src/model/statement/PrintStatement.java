@@ -19,7 +19,7 @@ public class PrintStatement implements StatementInterface {
         DictionaryInterface<String, ValueInterface> symbolTable = state.getSymbolTable();
         DictionaryInterface<Integer, ValueInterface> heap = state.getHeap();
         output.addToEnd(this.expression.evaluate(symbolTable, heap));
-        return state;
+        return null;
     }
 
     @Override

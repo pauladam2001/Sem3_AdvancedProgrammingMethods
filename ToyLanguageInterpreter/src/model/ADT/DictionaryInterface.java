@@ -13,5 +13,6 @@ public interface DictionaryInterface<TKey, TValue> {
     void update(TKey key, TValue newValue);
     void setContent(HashMap<TKey, TValue> newContent);
     HashMap<TKey,TValue> getContent();
+    DictionaryInterface<TKey, TValue> clone();
     String toString();
 }

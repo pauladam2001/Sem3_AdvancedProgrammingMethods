@@ -36,7 +36,7 @@ public class CloseReadFileStatement implements StatementInterface {
         fileBuffer.close();
         fileTable.remove((StringValue)filePathValue);
 
-        return state;
+        return null;
     }
 
     @Override

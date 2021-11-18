@@ -1,4 +1,5 @@
 
+Thread ID: 5
 Execution stack:
 (openRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);(int v;(readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);(print(v);(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in))))))
 Symbol table:
@@ -7,6 +8,7 @@ File table:
 Heap:
 
 
+Thread ID: 5
 Execution stack:
 openRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)
 (int v;(readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);(print(v);(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)))))
@@ -16,35 +18,81 @@ File table:
 Heap:
 
 
+Thread ID: 5
+Execution stack:
+openRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)
+(int v;(readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);(print(v);(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 5
 Execution stack:
 (int v;(readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);(print(v);(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)))))
 Symbol table:
 Output:
 File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@2ef1e4fa
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
 Heap:
 
 
+Thread ID: 5
+Execution stack:
+(int v;(readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);(print(v);(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)))))
+Symbol table:
+Output:
+File table:
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
+Heap:
+
+
+Thread ID: 5
 Execution stack:
 int v
 (readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);(print(v);(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in))))
 Symbol table:
 Output:
 File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@2ef1e4fa
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
 Heap:
 
 
+Thread ID: 5
+Execution stack:
+int v
+(readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);(print(v);(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in))))
+Symbol table:
+Output:
+File table:
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
+Heap:
+
+
+Thread ID: 5
 Execution stack:
 (readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);(print(v);(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in))))
 Symbol table:
 v -> 0
 Output:
 File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@2ef1e4fa
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
 Heap:
 
 
+Thread ID: 5
+Execution stack:
+(readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);(print(v);(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in))))
+Symbol table:
+v -> 0
+Output:
+File table:
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
+Heap:
+
+
+Thread ID: 5
 Execution stack:
 readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)
 (print(v);(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)))
@@ -52,20 +100,45 @@ Symbol table:
 v -> 0
 Output:
 File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@2ef1e4fa
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
 Heap:
 
 
+Thread ID: 5
+Execution stack:
+readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)
+(print(v);(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)))
+Symbol table:
+v -> 0
+Output:
+File table:
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
+Heap:
+
+
+Thread ID: 5
 Execution stack:
 (print(v);(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)))
 Symbol table:
 v -> 15
 Output:
 File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@2ef1e4fa
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
 Heap:
 
 
+Thread ID: 5
+Execution stack:
+(print(v);(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)))
+Symbol table:
+v -> 15
+Output:
+File table:
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
+Heap:
+
+
+Thread ID: 5
 Execution stack:
 print(v)
 (IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in))
@@ -73,10 +146,23 @@ Symbol table:
 v -> 15
 Output:
 File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@2ef1e4fa
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
 Heap:
 
 
+Thread ID: 5
+Execution stack:
+print(v)
+(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in))
+Symbol table:
+v -> 15
+Output:
+File table:
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
+Heap:
+
+
+Thread ID: 5
 Execution stack:
 (IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in))
 Symbol table:
@@ -84,10 +170,23 @@ v -> 15
 Output:
 15
 File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@2ef1e4fa
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
 Heap:
 
 
+Thread ID: 5
+Execution stack:
+(IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1));closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in))
+Symbol table:
+v -> 15
+Output:
+15
+File table:
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
+Heap:
+
+
+Thread ID: 5
 Execution stack:
 IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1))
 closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)
@@ -96,10 +195,24 @@ v -> 15
 Output:
 15
 File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@2ef1e4fa
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
 Heap:
 
 
+Thread ID: 5
+Execution stack:
+IF (v >= 2) THEN ((readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))) ELSE (print(-1))
+closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)
+Symbol table:
+v -> 15
+Output:
+15
+File table:
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
+Heap:
+
+
+Thread ID: 5
 Execution stack:
 (readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))
 closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)
@@ -108,10 +221,24 @@ v -> 15
 Output:
 15
 File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@2ef1e4fa
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
 Heap:
 
 
+Thread ID: 5
+Execution stack:
+(readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in);print(v))
+closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)
+Symbol table:
+v -> 15
+Output:
+15
+File table:
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
+Heap:
+
+
+Thread ID: 5
 Execution stack:
 readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)
 print(v)
@@ -121,10 +248,25 @@ v -> 15
 Output:
 15
 File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@2ef1e4fa
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
 Heap:
 
 
+Thread ID: 5
+Execution stack:
+readFile(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)
+print(v)
+closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)
+Symbol table:
+v -> 15
+Output:
+15
+File table:
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
+Heap:
+
+
+Thread ID: 5
 Execution stack:
 print(v)
 closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)
@@ -133,10 +275,24 @@ v -> 25
 Output:
 15
 File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@2ef1e4fa
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
 Heap:
 
 
+Thread ID: 5
+Execution stack:
+print(v)
+closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)
+Symbol table:
+v -> 25
+Output:
+15
+File table:
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
+Heap:
+
+
+Thread ID: 5
 Execution stack:
 closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)
 Symbol table:
@@ -145,10 +301,24 @@ Output:
 15
 25
 File table:
-C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@2ef1e4fa
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
 Heap:
 
 
+Thread ID: 5
+Execution stack:
+closeRead(C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in)
+Symbol table:
+v -> 25
+Output:
+15
+25
+File table:
+C:\Users\paula\IdeaProjects\ToyLanguageInterpreter\test.in -> java.io.BufferedReader@6477463f
+Heap:
+
+
+Thread ID: 5
 Execution stack:
 Symbol table:
 v -> 25

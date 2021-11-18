@@ -50,7 +50,7 @@ public class ReadFileStatement implements StatementInterface {
         else
             symbolTable.update(variableName, new IntValue(Integer.parseInt(currentLine)));
 
-        return state;
+        return null;
     }
 
     @Override

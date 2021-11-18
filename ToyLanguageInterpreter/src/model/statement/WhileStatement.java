@@ -32,7 +32,7 @@ public class WhileStatement implements StatementInterface {
             stack.push(statement);
         }
 
-        return state;
+        return null;
     }
 
     @Override

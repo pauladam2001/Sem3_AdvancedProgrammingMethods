@@ -34,7 +34,7 @@ public class AssignmentStatement implements StatementInterface {
         }
         else
             throw new VariableNotDefinedException("The used variable " + variableName + " was not declared before");
-        return state;
+        return null;
     }
 
     @Override

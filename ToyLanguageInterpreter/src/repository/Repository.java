@@ -17,10 +17,10 @@ public class Repository implements RepositoryInterface {
         this.logFilePath = logFilePath;
     }
 
-    @Override
-    public ProgramState getCurrentProgramState() {
-        return programStatesList.get(this.programStatesList.size() - 1);
-    }
+//    @Override
+//    public ProgramState getCurrentProgramState() {
+//        return programStatesList.get(this.programStatesList.size() - 1);
+//    }
 
     @Override
     public void addProgramState(ProgramState newProgramState) {
@@ -29,10 +29,9 @@ public class Repository implements RepositoryInterface {
     }
 
     @Override
-    public void logProgramStateExecution() throws Exception {
+    public void logProgramStateExecution(ProgramState state) throws Exception {
         PrintWriter logFile = new PrintWriter(new BufferedWriter(new FileWriter(logFilePath, true)));
-        for (ProgramState currentProgramState : this.programStatesList)
-            logFile.append(currentProgramState.toString());
+        logFile.append(state.toString());
         logFile.close();
     }
 
@@ -41,5 +40,17 @@ public class Repository implements RepositoryInterface {
         PrintWriter logFile = new PrintWriter(new BufferedWriter(new FileWriter(logFilePath, false)));
         logFile.write("");
         logFile.close();
+    }
+
+    @Override
+    public List<ProgramState> getAllPrograms() {
+        return programStatesList;
+    }
+
+    @Override
+    public void setProgramsList(List<ProgramState> newProgramStates) {
+        programStatesList.clear();
+        programStatesList.addAll(newProgramStates);
+//        programStatesList = newProgramStates;
     }
 }

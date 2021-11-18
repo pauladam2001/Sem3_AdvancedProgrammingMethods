@@ -1,4 +1,5 @@
 
+Thread ID: 1
 Execution stack:
 (int v;(v=2;print(v)))
 Symbol table:
@@ -7,6 +8,7 @@ File table:
 Heap:
 
 
+Thread ID: 1
 Execution stack:
 int v
 (v=2;print(v))
@@ -16,6 +18,17 @@ File table:
 Heap:
 
 
+Thread ID: 1
+Execution stack:
+int v
+(v=2;print(v))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
 Execution stack:
 (v=2;print(v))
 Symbol table:
@@ -25,6 +38,17 @@ File table:
 Heap:
 
 
+Thread ID: 1
+Execution stack:
+(v=2;print(v))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
 Execution stack:
 v=2
 print(v)
@@ -35,6 +59,18 @@ File table:
 Heap:
 
 
+Thread ID: 1
+Execution stack:
+v=2
+print(v)
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
 Execution stack:
 print(v)
 Symbol table:
@@ -44,6 +80,17 @@ File table:
 Heap:
 
 
+Thread ID: 1
+Execution stack:
+print(v)
+Symbol table:
+v -> 2
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
 Execution stack:
 Symbol table:
 v -> 2

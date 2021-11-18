@@ -40,7 +40,7 @@ public class HeapAllocationStatement implements StatementInterface {
 
         symbolTable.update(variableName, new ReferenceValue(newPositionInHeap, referencedType));
 
-        return state;
+        return null;
     }
 
     @Override

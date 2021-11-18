@@ -1,5 +1,6 @@
 package model;
 
+import exceptions.EmptyADTException;
 import model.ADT.DictionaryInterface;
 import model.ADT.ListInterface;
 import model.ADT.StackInterface;
@@ -15,8 +16,8 @@ public class ProgramState {
     private ListInterface<ValueInterface> output;
     private DictionaryInterface<StringValue, BufferedReader> fileTable;
     private DictionaryInterface<Integer, ValueInterface> heap;
-
-//    private StatementInterface originalProgram;   // optional field, but good to have
+    private static int globalThreadCount = 1;
+    private int threadID;
 
     public ProgramState(StackInterface<StatementInterface> executionStack, DictionaryInterface<String, ValueInterface> symbolTable,
                         ListInterface<ValueInterface> output, StatementInterface program, DictionaryInterface<StringValue, BufferedReader> fileTable,
@@ -26,7 +27,8 @@ public class ProgramState {
         this.output = output;
         this.fileTable = fileTable;
         this.heap = heap;
-//        originalProgram = program.deepcopy();  // ?
+        executionStack.push(program);
+        threadID = ProgramState.manageThreadID();           // OR I put one more parameter, newID, in constructor
     }
 
     public StackInterface<StatementInterface> getExecutionStack() {
@@ -49,6 +51,10 @@ public class ProgramState {
         return heap;
     }
 
+    public int getThreadID() {
+        return threadID;
+    }
+
     public void setExecutionStack(StackInterface<StatementInterface> stack) {
         executionStack = stack;
     }
@@ -65,9 +71,32 @@ public class ProgramState {
         fileTable = filetbl;
     }
 
+    public void setHeap(DictionaryInterface<Integer, ValueInterface> heap) {
+        this.heap = heap;
+    }
+
+    public static synchronized int manageThreadID() {           // Synchronized keyword in Java has to do with thread-safety, that is, when multiple threads read or write the same variable. ... The synchronized keyword is used to define a block of code where multiple threads can access the same variable in a safe way.
+        int newThreadID = ProgramState.globalThreadCount;
+        ProgramState.globalThreadCount += 1;
+        return newThreadID;
+    }
+
+//    public int getNewId(){return ++threadID;}
+
+    public boolean isNotCompleted() {
+        return !(executionStack.size() == 0);
+    }
+
+    public ProgramState oneStepExecution() throws Exception {
+        if (executionStack.size() == 0)
+            throw new EmptyADTException("ProgramState stack is empty!");
+        StatementInterface currentStatement = executionStack.pop();
+        return currentStatement.execute(this);
+    }
+
     public String toString() {
 //        return executionStack.toString() + "\n" + symbolTable.toString() + "\n" + output.toString() + "\n";
-        return "\nExecution stack:\n" + executionStack.toString() + "Symbol table:\n" + symbolTable.toString() +
+        return "\nThread ID: " + threadID + "\nExecution stack:\n" + executionStack.toString() + "Symbol table:\n" + symbolTable.toString() +
                 "Output:\n" +output.toString() + "File table:\n" + fileTable.toString() + "Heap:\n" +
                 heap.toString() + "\n";
     }
