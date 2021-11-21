@@ -6,6 +6,7 @@ import model.ADT.DictionaryInterface;
 import model.ProgramState;
 import model.expression.ExpressionInterface;
 import model.type.StringType;
+import model.type.TypeInterface;
 import model.value.StringValue;
 import model.value.ValueInterface;
 
@@ -37,6 +38,14 @@ public class CloseReadFileStatement implements StatementInterface {
         fileTable.remove((StringValue)filePathValue);
 
         return null;
+    }
+
+    @Override
+    public DictionaryInterface<String, TypeInterface> typeCheck(DictionaryInterface<String, TypeInterface> typeEnvironment) throws Exception {
+        if (filePath.typeCheck(typeEnvironment).equals(new StringType()))
+            return typeEnvironment;
+        else
+            throw new InvalidTypeException("File path should be a string!");
     }
 
     @Override

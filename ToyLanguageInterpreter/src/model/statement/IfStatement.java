@@ -6,6 +6,7 @@ import model.ProgramState;
 import model.ADT.StackInterface;
 import model.expression.ExpressionInterface;
 import model.type.BoolType;
+import model.type.TypeInterface;
 import model.value.BoolValue;
 import model.value.ValueInterface;
 
@@ -37,6 +38,17 @@ public class IfStatement implements StatementInterface {
         else
             throw new InvalidTypeException("Conditional expression is not a boolean!");
         return null;
+    }
+
+    @Override
+    public DictionaryInterface<String, TypeInterface> typeCheck(DictionaryInterface<String, TypeInterface> typeEnvironment) throws Exception {
+        if (expression.typeCheck(typeEnvironment).equals(new BoolType())) {
+            thenStatement.typeCheck(typeEnvironment.clone());
+            elseStatement.typeCheck(typeEnvironment.clone());
+            return typeEnvironment;
+        }
+        else
+            throw new InvalidTypeException("The condition of IfStatement is not a boolean!");
     }
 
     @Override

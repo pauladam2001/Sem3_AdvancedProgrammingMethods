@@ -2,6 +2,7 @@ package model.expression;
 
 import exceptions.VariableNotDefinedException;
 import model.ADT.DictionaryInterface;
+import model.type.TypeInterface;
 import model.value.ValueInterface;
 
 public class VariableExpression implements ExpressionInterface {
@@ -16,6 +17,11 @@ public class VariableExpression implements ExpressionInterface {
         if (!symbolTable.isDefined(variableName))
             throw new VariableNotDefinedException("Variable " + variableName + " is not defined!");
         return symbolTable.getValue(variableName);
+    }
+
+    @Override
+    public TypeInterface typeCheck(DictionaryInterface<String, TypeInterface> typeEnvironment) throws Exception {
+        return typeEnvironment.getValue(variableName);
     }
 
     @Override

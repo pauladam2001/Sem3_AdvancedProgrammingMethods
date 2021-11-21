@@ -38,6 +38,14 @@ public class AssignmentStatement implements StatementInterface {
     }
 
     @Override
+    public DictionaryInterface<String, TypeInterface> typeCheck(DictionaryInterface<String, TypeInterface> typeEnvironment) throws Exception {
+        if (typeEnvironment.getValue(variableName).equals(expression.typeCheck(typeEnvironment)))
+            return typeEnvironment;
+        else
+            throw new InvalidTypeException("AssignmentStatement: right hand side and left hand side have different types!");
+    }
+
+    @Override
     public String toString() {
         return variableName + "=" + expression.toString();
     }

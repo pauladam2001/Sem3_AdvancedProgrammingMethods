@@ -40,6 +40,12 @@ public class VariableDeclarationStatement implements StatementInterface {
     }
 
     @Override
+    public DictionaryInterface<String, TypeInterface> typeCheck(DictionaryInterface<String, TypeInterface> typeEnvironment) throws Exception {
+        typeEnvironment.add(name, type);
+        return typeEnvironment;
+    }
+
+    @Override
     public String toString() {
         return type.toString() + " " + name.toString();
     }

@@ -5,6 +5,7 @@ import exceptions.InvalidOperatorException;
 import exceptions.InvalidTypeException;
 import model.ADT.DictionaryInterface;
 import model.type.IntType;
+import model.type.TypeInterface;
 import model.value.IntValue;
 import model.value.ValueInterface;
 
@@ -48,6 +49,21 @@ public class ArithmeticExpression implements ExpressionInterface {
         } else {
             throw new InvalidOperatorException("Invalid operator!");
         }
+    }
+
+    @Override
+    public TypeInterface typeCheck(DictionaryInterface<String, TypeInterface> typeEnvironment) throws Exception {
+        TypeInterface firstType, secondType;
+        firstType = firstExpression.typeCheck(typeEnvironment);
+        secondType = secondExpression.typeCheck(typeEnvironment);
+
+        if (firstType.equals(new IntType())) {
+            if (secondType.equals(new IntType())) {
+                return new IntType();
+            } else
+                throw new InvalidTypeException("Second operand is not an integer!");
+        } else
+            throw new InvalidTypeException("First operand is not an integer!");
     }
 
     @Override

@@ -6,6 +6,7 @@ import model.ADT.DictionaryInterface;
 import model.ADT.MyHeap;
 import model.ProgramState;
 import model.expression.ExpressionInterface;
+import model.type.ReferenceType;
 import model.type.TypeInterface;
 import model.value.ReferenceValue;
 import model.value.ValueInterface;
@@ -27,6 +28,9 @@ public class HeapAllocationStatement implements StatementInterface {
         if (!symbolTable.isDefined(variableName))
             throw new VariableNotDefinedException(variableName + " is not defined in the symbol table!");
 
+        if (!(symbolTable.getValue(variableName).getType() instanceof ReferenceType))
+            throw new InvalidTypeException("Associated type of " + variableName + " should be ReferenceType!");
+
         ValueInterface variableValue = symbolTable.getValue(variableName);
         ValueInterface expressionValue = expression.evaluate(symbolTable, heap);
         TypeInterface expressionType = expressionValue.getType();
@@ -41,6 +45,14 @@ public class HeapAllocationStatement implements StatementInterface {
         symbolTable.update(variableName, new ReferenceValue(newPositionInHeap, referencedType));
 
         return null;
+    }
+
+    @Override
+    public DictionaryInterface<String, TypeInterface> typeCheck(DictionaryInterface<String, TypeInterface> typeEnvironment) throws Exception {
+        if (typeEnvironment.getValue(variableName).equals(new ReferenceType(expression.typeCheck(typeEnvironment))))
+            return typeEnvironment;
+        else
+            throw new InvalidTypeException("HeapAllocationStatement: right hand side and left hand side have different types!");
     }
 
     @Override

@@ -8,6 +8,7 @@ import model.statement.*;
 import model.type.BoolType;
 import model.type.IntType;
 import model.type.ReferenceType;
+import model.type.TypeInterface;
 import model.value.BoolValue;
 import model.value.IntValue;
 import model.value.StringValue;
@@ -37,6 +38,8 @@ public class Interpreter {
         try {
             RepositoryInterface repository1 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile1.txt");
             Controller controller1 = new Controller(repository1);
+            DictionaryInterface<String, TypeInterface> typeEnvironment = new MyDictionary<>();
+            statement1.typeCheck(typeEnvironment);
             ProgramState currentProgramState1 = new ProgramState(stack1, symbolTable1, output1, statement1, fileTable1, heap1);
             controller1.addProgramState(currentProgramState1);
 
@@ -62,6 +65,8 @@ public class Interpreter {
         try {
             RepositoryInterface repository2 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile2.txt");
             Controller controller2 = new Controller(repository2);
+            DictionaryInterface<String, TypeInterface> typeEnvironment = new MyDictionary<>();
+            statement2.typeCheck(typeEnvironment);
             ProgramState currentProgramState2 = new ProgramState(stack2, symbolTable2, output2, statement2, fileTable2, heap2);
             controller2.addProgramState(currentProgramState2);
 
@@ -87,6 +92,8 @@ public class Interpreter {
         try {
             RepositoryInterface repository3 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile3.txt");
             Controller controller3 = new Controller(repository3);
+            DictionaryInterface<String, TypeInterface> typeEnvironment = new MyDictionary<>();
+            statement3.typeCheck(typeEnvironment);
             ProgramState currentProgramState3 = new ProgramState(stack3, symbolTable3, output3, statement3, fileTable3, heap3);
             controller3.addProgramState(currentProgramState3);
 
@@ -113,6 +120,8 @@ public class Interpreter {
         try {
             RepositoryInterface repository4 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile4.txt");
             Controller controller4 = new Controller(repository4);
+            DictionaryInterface<String, TypeInterface> typeEnvironment = new MyDictionary<>();
+            statement4.typeCheck(typeEnvironment);
             ProgramState currentProgramState4 = new ProgramState(stack4, symbolTable4, output4, statement4, fileTable4, heap4);
             controller4.addProgramState(currentProgramState4);
 
@@ -140,6 +149,8 @@ public class Interpreter {
         try {
             RepositoryInterface repository5 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile5.txt");
             Controller controller5 = new Controller(repository5);
+            DictionaryInterface<String, TypeInterface> typeEnvironment = new MyDictionary<>();
+            statement5.typeCheck(typeEnvironment);
             ProgramState currentProgramState4 = new ProgramState(stack5, symbolTable5, output5, statement5, fileTable5, heap5);
             controller5.addProgramState(currentProgramState4);
 
@@ -165,6 +176,8 @@ public class Interpreter {
         try {
             RepositoryInterface repository6 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile6.txt");
             Controller controller6 = new Controller(repository6);
+            DictionaryInterface<String, TypeInterface> typeEnvironment = new MyDictionary<>();
+            statement6.typeCheck(typeEnvironment);
             ProgramState currentProgramState6 = new ProgramState(stack6, symbolTable6, output6, statement6, fileTable6, heap6);
             controller6.addProgramState(currentProgramState6);
 
@@ -190,6 +203,8 @@ public class Interpreter {
         try {
             RepositoryInterface repository7 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile7.txt");
             Controller controller7 = new Controller(repository7);
+            DictionaryInterface<String, TypeInterface> typeEnvironment = new MyDictionary<>();
+            statement7.typeCheck(typeEnvironment);
             ProgramState currentProgramState7 = new ProgramState(stack7, symbolTable7, output7, statement7, fileTable7, heap7);
             controller7.addProgramState(currentProgramState7);
 
@@ -215,6 +230,8 @@ public class Interpreter {
         try {
             RepositoryInterface repository8 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile8.txt");
             Controller controller8 = new Controller(repository8);
+            DictionaryInterface<String, TypeInterface> typeEnvironment = new MyDictionary<>();
+            statement8.typeCheck(typeEnvironment);
             ProgramState currentProgramState8 = new ProgramState(stack8, symbolTable8, output8, statement8, fileTable8, heap8);
             controller8.addProgramState(currentProgramState8);
 
@@ -239,6 +256,8 @@ public class Interpreter {
         try {
             RepositoryInterface repository9 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile9.txt");
             Controller controller9 = new Controller(repository9);
+            DictionaryInterface<String, TypeInterface> typeEnvironment = new MyDictionary<>();
+            statement9.typeCheck(typeEnvironment);
             ProgramState currentProgramState9 = new ProgramState(stack9, symbolTable9, output9, statement9, fileTable9, heap9);
             controller9.addProgramState(currentProgramState9);
 
@@ -264,6 +283,8 @@ public class Interpreter {
         try {
             RepositoryInterface repository10 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile10.txt");
             Controller controller10 = new Controller(repository10);
+            DictionaryInterface<String, TypeInterface> typeEnvironment = new MyDictionary<>();
+            statement10.typeCheck(typeEnvironment);
             ProgramState currentProgramState10 = new ProgramState(stack10, symbolTable10, output10, statement10, fileTable10, heap10);
             controller10.addProgramState(currentProgramState10);
 
@@ -296,6 +317,8 @@ public class Interpreter {
         try {
             RepositoryInterface repository11 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile11.txt");
             Controller controller11 = new Controller(repository11);
+            DictionaryInterface<String, TypeInterface> typeEnvironment = new MyDictionary<>();
+            statement11.typeCheck(typeEnvironment);
             ProgramState currentProgramState11 = new ProgramState(stack11, symbolTable11, output11, statement11, fileTable11, heap11);
             controller11.addProgramState(currentProgramState11);
 

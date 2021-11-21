@@ -5,6 +5,7 @@ import exceptions.VariableNotDefinedException;
 import model.ADT.DictionaryInterface;
 import model.ProgramState;
 import model.expression.ExpressionInterface;
+import model.type.ReferenceType;
 import model.type.TypeInterface;
 import model.value.ReferenceValue;
 import model.value.ValueInterface;
@@ -42,6 +43,15 @@ public class HeapWritingStatement implements StatementInterface {
         heap.update(positionInHeap, expressionValue);
 
         return null;
+    }
+
+    @Override
+    public DictionaryInterface<String, TypeInterface> typeCheck(DictionaryInterface<String, TypeInterface> typeEnvironment) throws Exception {
+        TypeInterface expType = expression.typeCheck(typeEnvironment);
+        if (typeEnvironment.getValue(variableName).equals(new ReferenceType(expType)))
+            return typeEnvironment;
+        else
+            throw new InvalidTypeException("HeapWritingStatement: right hand side and left hand side have different types!");
     }
 
     @Override

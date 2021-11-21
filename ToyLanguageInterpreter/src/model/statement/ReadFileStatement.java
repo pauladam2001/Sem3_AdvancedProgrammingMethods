@@ -7,6 +7,7 @@ import model.ProgramState;
 import model.expression.ExpressionInterface;
 import model.type.IntType;
 import model.type.StringType;
+import model.type.TypeInterface;
 import model.value.IntValue;
 import model.value.StringValue;
 import model.value.ValueInterface;
@@ -51,6 +52,16 @@ public class ReadFileStatement implements StatementInterface {
             symbolTable.update(variableName, new IntValue(Integer.parseInt(currentLine)));
 
         return null;
+    }
+
+    @Override
+    public DictionaryInterface<String, TypeInterface> typeCheck(DictionaryInterface<String, TypeInterface> typeEnvironment) throws Exception {
+        if (!typeEnvironment.getValue(variableName).equals(new IntType()))
+            throw new InvalidTypeException(variableName + "is not an integer!");
+        if (!filePath.typeCheck(typeEnvironment).equals(new StringType()))
+            throw new InvalidTypeException("File path should be a string!");
+
+        return typeEnvironment;
     }
 
     @Override

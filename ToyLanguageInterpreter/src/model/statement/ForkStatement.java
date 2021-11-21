@@ -1,7 +1,11 @@
 package model.statement;
 
+import exceptions.InvalidTypeException;
+import model.ADT.DictionaryInterface;
 import model.ADT.MyStack;
 import model.ProgramState;
+import model.type.BoolType;
+import model.type.TypeInterface;
 
 public class ForkStatement implements StatementInterface {
     private final StatementInterface threadInstructions;
@@ -21,6 +25,12 @@ public class ForkStatement implements StatementInterface {
                 threadInstructions,
                 parentThread.getFileTable(),
                 parentThread.getHeap());
+    }
+
+    @Override
+    public DictionaryInterface<String, TypeInterface> typeCheck(DictionaryInterface<String, TypeInterface> typeEnvironment) throws Exception {
+        threadInstructions.typeCheck(typeEnvironment.clone());
+        return typeEnvironment;
     }
 
     @Override

@@ -5,6 +5,8 @@ import model.ADT.DictionaryInterface;
 import model.ADT.StackInterface;
 import model.ProgramState;
 import model.expression.ExpressionInterface;
+import model.type.BoolType;
+import model.type.TypeInterface;
 import model.value.BoolValue;
 import model.value.ValueInterface;
 
@@ -33,6 +35,16 @@ public class WhileStatement implements StatementInterface {
         }
 
         return null;
+    }
+
+    @Override
+    public DictionaryInterface<String, TypeInterface> typeCheck(DictionaryInterface<String, TypeInterface> typeEnvironment) throws Exception {
+        if (expression.typeCheck(typeEnvironment).equals(new BoolType())) {
+            statement.typeCheck(typeEnvironment.clone());
+            return typeEnvironment;
+        }
+        else
+            throw new InvalidTypeException("The condition of WhileStatement is not a boolean!");
     }
 
     @Override
