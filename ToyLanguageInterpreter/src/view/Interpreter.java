@@ -151,8 +151,8 @@ public class Interpreter {
             Controller controller5 = new Controller(repository5);
             DictionaryInterface<String, TypeInterface> typeEnvironment = new MyDictionary<>();
             statement5.typeCheck(typeEnvironment);
-            ProgramState currentProgramState4 = new ProgramState(stack5, symbolTable5, output5, statement5, fileTable5, heap5);
-            controller5.addProgramState(currentProgramState4);
+            ProgramState currentProgramState5 = new ProgramState(stack5, symbolTable5, output5, statement5, fileTable5, heap5);
+            controller5.addProgramState(currentProgramState5);
 
             menu.addCommand(new RunExampleCommand("5", statement5.toString(), controller5));
         } catch (Exception e) {
@@ -325,6 +325,75 @@ public class Interpreter {
             menu.addCommand(new RunExampleCommand("11", statement11.toString(), controller11));
         } catch (Exception e) {
             System.out.print("Example 11: " + e.getMessage() + "\n");
+        }
+
+                // THROWS AN ERROR
+//        StackInterface<StatementInterface> stack12 = new MyStack<>();
+//        DictionaryInterface<String, ValueInterface> symbolTable12 = new MyDictionary<>();
+//        ListInterface<ValueInterface> output12 = new MyList<>();
+//        DictionaryInterface<StringValue, BufferedReader> fileTable12 = new MyDictionary<>();
+//        DictionaryInterface<Integer, ValueInterface> heap12 = new MyHeap<>();
+//
+//       // int a; bool b; int c; c="abc"; (if c>a then b=true else b=false); print(b);
+//        StatementInterface statement12 = new CompoundStatement(new VariableDeclarationStatement("a",new IntType()),
+//                new CompoundStatement(new VariableDeclarationStatement("b",new BoolType()),
+//                        new CompoundStatement(new VariableDeclarationStatement("c",new IntType()),
+//                                new CompoundStatement(new AssignmentStatement("c",new ValueExpression(new StringValue("abc"))),
+//                                        new CompoundStatement(new IfStatement(new RelationalExpression(new VariableExpression("c"),
+//                                                new VariableExpression("a"), ">"), new AssignmentStatement("b",new ValueExpression(new BoolValue(true))),
+//                                                new AssignmentStatement("b",new ValueExpression(new BoolValue(false)))),new PrintStatement(new VariableExpression("b")))))));
+//        try {
+//            RepositoryInterface repository12 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile12.txt");
+//            Controller controller12 = new Controller(repository12);
+//            DictionaryInterface<String, TypeInterface> typeEnvironment = new MyDictionary<>();
+//            statement12.typeCheck(typeEnvironment);
+//            ProgramState currentProgramState12 = new ProgramState(stack12, symbolTable12, output12, statement12, fileTable12, heap12);
+//            controller12.addProgramState(currentProgramState12);
+//
+//            menu.addCommand(new RunExampleCommand("12", statement12.toString(), controller12));
+//        } catch (Exception e) {
+//            System.out.print("Example 12: " + e.getMessage() + "\n");
+//        }
+
+
+        StackInterface<StatementInterface> stack12 = new MyStack<>();
+        DictionaryInterface<String, ValueInterface> symbolTable12 = new MyDictionary<>();
+        ListInterface<ValueInterface> output12 = new MyList<>();
+        DictionaryInterface<StringValue, BufferedReader> fileTable12 = new MyDictionary<>();
+        DictionaryInterface<Integer, ValueInterface> heap12 = new MyHeap<>();
+
+        // int v; Ref int a; v=10; new(a,22); fork(wH(a,30); v=32; print(v); print(rH(a))); print(v); print(rH(a));
+        StatementInterface statement12 = new CompoundStatement(new VariableDeclarationStatement("v",new IntType()),
+                new CompoundStatement(new VariableDeclarationStatement("a",new ReferenceType(new IntType())),
+                        new CompoundStatement(new AssignmentStatement("v",new ValueExpression(new IntValue(10))),
+                                new CompoundStatement(new HeapAllocationStatement("a",new ValueExpression(new IntValue(22))),
+                                        new CompoundStatement(
+                                                new ForkStatement(
+                                                        new CompoundStatement(new HeapWritingStatement("a",new ValueExpression(new IntValue(30))),
+                                                                new CompoundStatement(new AssignmentStatement("v",new ValueExpression(new IntValue(32))),
+                                                                        new CompoundStatement(new PrintStatement(new VariableExpression("v")),
+                                                                                new PrintStatement(new HeapReadingExpression(new VariableExpression("a"))))))
+                                                ),
+                                                new CompoundStatement(
+                                                    new ForkStatement(
+                                                            new CompoundStatement(new HeapWritingStatement("a",new ValueExpression(new IntValue(30))),
+                                                                    new CompoundStatement(new AssignmentStatement("v",new ValueExpression(new IntValue(32))),
+                                                                            new CompoundStatement(new PrintStatement(new VariableExpression("v")),
+                                                                                    new PrintStatement(new HeapReadingExpression(new VariableExpression("a"))))))
+                                                    ),
+                                                new CompoundStatement(new PrintStatement(new VariableExpression("v")),
+                                                        new PrintStatement(new HeapReadingExpression(new VariableExpression("a"))))))))));
+        try {
+            RepositoryInterface repository12 = new Repository("C:/Users/paula/IdeaProjects/ToyLanguageInterpreter/logFile12.txt");
+            Controller controller12 = new Controller(repository12);
+            DictionaryInterface<String, TypeInterface> typeEnvironment = new MyDictionary<>();
+            statement12.typeCheck(typeEnvironment);
+            ProgramState currentProgramState12 = new ProgramState(stack12, symbolTable12, output12, statement12, fileTable12, heap12);
+            controller12.addProgramState(currentProgramState12);
+
+            menu.addCommand(new RunExampleCommand("12", statement12.toString(), controller12));
+        } catch (Exception e) {
+            System.out.print("Example 12: " + e.getMessage() + "\n");
         }
 
 
