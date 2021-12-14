@@ -1,0 +1,124 @@
+
+Execution stack:
+(int a;(bool b;(int c;(c=7;(IF (c > a) THEN (b=true) ELSE (b=false);print(b))))))
+Symbol table:
+Output:
+File table:
+
+
+Execution stack:
+int a
+(bool b;(int c;(c=7;(IF (c > a) THEN (b=true) ELSE (b=false);print(b)))))
+Symbol table:
+Output:
+File table:
+
+
+Execution stack:
+(bool b;(int c;(c=7;(IF (c > a) THEN (b=true) ELSE (b=false);print(b)))))
+Symbol table:
+a = 0
+Output:
+File table:
+
+
+Execution stack:
+bool b
+(int c;(c=7;(IF (c > a) THEN (b=true) ELSE (b=false);print(b))))
+Symbol table:
+a = 0
+Output:
+File table:
+
+
+Execution stack:
+(int c;(c=7;(IF (c > a) THEN (b=true) ELSE (b=false);print(b))))
+Symbol table:
+a = 0
+b = false
+Output:
+File table:
+
+
+Execution stack:
+int c
+(c=7;(IF (c > a) THEN (b=true) ELSE (b=false);print(b)))
+Symbol table:
+a = 0
+b = false
+Output:
+File table:
+
+
+Execution stack:
+(c=7;(IF (c > a) THEN (b=true) ELSE (b=false);print(b)))
+Symbol table:
+a = 0
+b = false
+c = 0
+Output:
+File table:
+
+
+Execution stack:
+c=7
+(IF (c > a) THEN (b=true) ELSE (b=false);print(b))
+Symbol table:
+a = 0
+b = false
+c = 0
+Output:
+File table:
+
+
+Execution stack:
+(IF (c > a) THEN (b=true) ELSE (b=false);print(b))
+Symbol table:
+a = 0
+b = false
+c = 7
+Output:
+File table:
+
+
+Execution stack:
+IF (c > a) THEN (b=true) ELSE (b=false)
+print(b)
+Symbol table:
+a = 0
+b = false
+c = 7
+Output:
+File table:
+
+
+Execution stack:
+b=true
+print(b)
+Symbol table:
+a = 0
+b = false
+c = 7
+Output:
+File table:
+
+
+Execution stack:
+print(b)
+Symbol table:
+a = 0
+b = true
+c = 7
+Output:
+File table:
+
+
+Execution stack:
+Symbol table:
+a = 0
+b = true
+c = 7
+Output:
+true
+File table:
+

@@ -1,0 +1,603 @@
+
+Thread ID: 6
+Execution stack:
+(int v;(v=4;(while (v > 0) { (print(v);v=v - 1) };print(v))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+int v
+(v=4;(while (v > 0) { (print(v);v=v - 1) };print(v)))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+int v
+(v=4;(while (v > 0) { (print(v);v=v - 1) };print(v)))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+(v=4;(while (v > 0) { (print(v);v=v - 1) };print(v)))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+(v=4;(while (v > 0) { (print(v);v=v - 1) };print(v)))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+v=4
+(while (v > 0) { (print(v);v=v - 1) };print(v))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+v=4
+(while (v > 0) { (print(v);v=v - 1) };print(v))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+(while (v > 0) { (print(v);v=v - 1) };print(v))
+Symbol table:
+v -> 4
+Output:
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+(while (v > 0) { (print(v);v=v - 1) };print(v))
+Symbol table:
+v -> 4
+Output:
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 4
+Output:
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 4
+Output:
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+(print(v);v=v - 1)
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 4
+Output:
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+(print(v);v=v - 1)
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 4
+Output:
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+print(v)
+v=v - 1
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 4
+Output:
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+print(v)
+v=v - 1
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 4
+Output:
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+v=v - 1
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 4
+Output:
+4
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+v=v - 1
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 4
+Output:
+4
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 3
+Output:
+4
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 3
+Output:
+4
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+(print(v);v=v - 1)
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 3
+Output:
+4
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+(print(v);v=v - 1)
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 3
+Output:
+4
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+print(v)
+v=v - 1
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 3
+Output:
+4
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+print(v)
+v=v - 1
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 3
+Output:
+4
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+v=v - 1
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 3
+Output:
+4
+3
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+v=v - 1
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 3
+Output:
+4
+3
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 2
+Output:
+4
+3
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 2
+Output:
+4
+3
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+(print(v);v=v - 1)
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 2
+Output:
+4
+3
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+(print(v);v=v - 1)
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 2
+Output:
+4
+3
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+print(v)
+v=v - 1
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 2
+Output:
+4
+3
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+print(v)
+v=v - 1
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 2
+Output:
+4
+3
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+v=v - 1
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 2
+Output:
+4
+3
+2
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+v=v - 1
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 2
+Output:
+4
+3
+2
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 1
+Output:
+4
+3
+2
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 1
+Output:
+4
+3
+2
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+(print(v);v=v - 1)
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 1
+Output:
+4
+3
+2
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+(print(v);v=v - 1)
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 1
+Output:
+4
+3
+2
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+print(v)
+v=v - 1
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 1
+Output:
+4
+3
+2
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+print(v)
+v=v - 1
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 1
+Output:
+4
+3
+2
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+v=v - 1
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 1
+Output:
+4
+3
+2
+1
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+v=v - 1
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 1
+Output:
+4
+3
+2
+1
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 0
+Output:
+4
+3
+2
+1
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+while (v > 0) { (print(v);v=v - 1) }
+print(v)
+Symbol table:
+v -> 0
+Output:
+4
+3
+2
+1
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+print(v)
+Symbol table:
+v -> 0
+Output:
+4
+3
+2
+1
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+print(v)
+Symbol table:
+v -> 0
+Output:
+4
+3
+2
+1
+File table:
+Heap:
+
+
+Thread ID: 6
+Execution stack:
+Symbol table:
+v -> 0
+Output:
+4
+3
+2
+1
+0
+File table:
+Heap:
+

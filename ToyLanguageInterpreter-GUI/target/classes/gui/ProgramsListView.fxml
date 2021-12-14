@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="368.0" prefWidth="456.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ProgramsListViewController">
+   <children>
+      <ListView fx:id="programsListView" prefHeight="330.0" prefWidth="494.0" />
+      <Button layoutX="177.0" layoutY="337.0" mnemonicParsing="false" onAction="#onRunProgramButton" prefHeight="27.0" prefWidth="131.0" text="Run Program" />
+   </children>
+</AnchorPane>
