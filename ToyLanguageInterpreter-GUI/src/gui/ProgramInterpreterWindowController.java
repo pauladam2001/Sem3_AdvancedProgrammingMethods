@@ -9,6 +9,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
 import model.ADT.DictionaryInterface;
+import model.ADT.LatchTableInterface;
 import model.ProgramState;
 import model.statement.StatementInterface;
 import model.value.ValueInterface;
@@ -43,6 +44,13 @@ public class ProgramInterpreterWindowController {
     private TableColumn<Map.Entry<String, String>, String> symVarNameColumn=new TableColumn<>();
     @FXML
     private TableColumn<Map.Entry<String, String>, String> symValueColumn=new TableColumn<>();
+
+    @FXML
+    private TableView<Map.Entry<Integer, Integer>> latchTableView=new TableView<>();
+    @FXML
+    private TableColumn<Map.Entry<Integer, Integer>, Integer> locationLatchColumn=new TableColumn<>();
+    @FXML
+    private TableColumn<Map.Entry<Integer, Integer>, Integer> valueLatchColumn=new TableColumn<>();
 
     @FXML
     private ListView<String> exeStackView=new ListView<>();
@@ -97,6 +105,16 @@ public class ProgramInterpreterWindowController {
 
             symVarNameColumn.setCellValueFactory(p -> new SimpleStringProperty(p.getValue().getKey()));
             symValueColumn.setCellValueFactory(p -> new SimpleStringProperty(p.getValue().getValue()));
+
+            LatchTableInterface<Integer, Integer> latchTable = selectedProgram.getLatchTable();
+            List<Map.Entry<Integer, Integer>> lockList = new ArrayList<>();
+            for (Map.Entry<Integer, Integer> entry: latchTable.getContent().entrySet())
+                lockList.add(entry);
+            latchTableView.setItems(FXCollections.observableList(lockList));
+            latchTableView.refresh();
+
+            locationLatchColumn.setCellValueFactory(p -> new SimpleIntegerProperty(p.getValue().getKey()).asObject());
+            valueLatchColumn.setCellValueFactory(p -> new SimpleIntegerProperty(p.getValue().getValue()).asObject());
         }
     }
 

@@ -14,5 +14,6 @@ public interface DictionaryInterface<TKey, TValue> {
     void setContent(HashMap<TKey, TValue> newContent);
     HashMap<TKey,TValue> getContent();
     DictionaryInterface<TKey, TValue> clone();
+    boolean containsKey(TKey key);
     String toString();
 }

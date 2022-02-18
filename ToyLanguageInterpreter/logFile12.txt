@@ -2039,3 +2039,5992 @@ File table:
 Heap:
 1 -> 30
 
+
+Thread ID: 12
+Execution stack:
+(int v;(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+Ref(int) a
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+Ref(int) a
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+Ref(int) a
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+v=10
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+v=10
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+v=10
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+new(a, 22)
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+new(a, 22)
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+new(a, 22)
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+32
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+32
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+32
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+32
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+32
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+(int v;(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+Ref(int) a
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+Ref(int) a
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+Ref(int) a
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+v=10
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+v=10
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+v=10
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+new(a, 22)
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+new(a, 22)
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+new(a, 22)
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+32
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+32
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+32
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+32
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+32
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+(int v;(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+Ref(int) a
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+Ref(int) a
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+Ref(int) a
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+v=10
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+v=10
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+v=10
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+new(a, 22)
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+new(a, 22)
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+new(a, 22)
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 14
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 14
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 14
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 14
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 14
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 14
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 15
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 15
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 15
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 15
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 15
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 15
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 15
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 15
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 15
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 15
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 15
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+(int v;(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+Ref(int) a
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+Ref(int) a
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+Ref(int) a
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+v=10
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+v=10
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+v=10
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+new(a, 22)
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+new(a, 22)
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+new(a, 22)
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+(int v;(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+int v
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(Ref(int) a;(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+Ref(int) a
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+Ref(int) a
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+Ref(int) a
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(v=10;(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+v=10
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+v=10
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+v=10
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(new(a, 22);(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+new(a, 22)
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+new(a, 22)
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+new(a, 22)
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (0, int)
+v -> 10
+Output:
+File table:
+Heap:
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(Fork(((a) = 30;;(v=32;(print(v);print(read(a))))));(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+Fork(((a) = 30;;(v=32;(print(v);print(read(a))))))
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 13
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 22
+
+
+Thread ID: 12
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+((a) = 30;;(v=32;(print(v);print(read(a)))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(a) = 30;
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(v=32;(print(v);print(read(a))))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 12
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+v=32
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 10
+Output:
+10
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+(print(v);print(read(a)))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 13
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+print(v)
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+print(read(a))
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+
+
+Thread ID: 14
+Execution stack:
+Symbol table:
+a -> (1, int)
+v -> 32
+Output:
+10
+30
+32
+30
+32
+30
+File table:
+Heap:
+1 -> 30
+

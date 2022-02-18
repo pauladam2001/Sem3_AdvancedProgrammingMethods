@@ -61,6 +61,11 @@ public class MyDictionary<TKey, TValue> implements DictionaryInterface<TKey, TVa
     }
 
     @Override
+    public boolean containsKey(TKey key) {
+        return dictionary.containsKey(key);
+    }
+
+    @Override
     public String toString() {
         String str = "";
         Collection<TKey> allKeys = dictionary.keySet();    // keyset() creates a set out of the key elements contained in the hash table

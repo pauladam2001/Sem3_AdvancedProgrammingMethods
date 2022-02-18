@@ -194,3 +194,62 @@ Output:
 File table:
 Heap:
 
+
+Thread ID: 2
+Execution stack:
+(int a;(int b;(a=2 + 3 * 5;(b=a + 1;print(b)))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+int a
+(int b;(a=2 + 3 * 5;(b=a + 1;print(b))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+int a
+(int b;(a=2 + 3 * 5;(b=a + 1;print(b))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+int a
+(int b;(a=2 + 3 * 5;(b=a + 1;print(b))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(int b;(a=2 + 3 * 5;(b=a + 1;print(b))))
+Symbol table:
+a -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(int b;(a=2 + 3 * 5;(b=a + 1;print(b))))
+Symbol table:
+a -> 0
+Output:
+File table:
+Heap:
+

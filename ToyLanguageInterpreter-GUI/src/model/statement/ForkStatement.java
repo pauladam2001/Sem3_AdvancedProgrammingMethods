@@ -24,7 +24,8 @@ public class ForkStatement implements StatementInterface {
                 parentThread.getOutput(),
                 threadInstructions,
                 parentThread.getFileTable(),
-                parentThread.getHeap());
+                parentThread.getHeap(),
+                parentThread.getLatchTable());
     }
 
     @Override

@@ -37,13 +37,15 @@ public class Controller {
     public void oneStepExecution() {
         executor = Executors.newFixedThreadPool(2);
 
-        removeCompletedPrograms(repository.getAllPrograms());
+//        removeCompletedPrograms(repository.getAllPrograms());
+//
+//        List<ProgramState> programsList = repository.getAllPrograms();
 
-        List<ProgramState> programsList = repository.getAllPrograms();
+        List<ProgramState> programsList = removeCompletedPrograms(repository.getAllPrograms());
 
         if (programsList.size() > 0) {
             try {
-                oneStepForAllPrograms(repository.getAllPrograms());
+                oneStepForAllPrograms(programsList);   // repository.getAllPrograms()
             } catch (Exception e) {
                 System.out.println(e.getMessage());
             }
@@ -56,6 +58,9 @@ public class Controller {
                 }
             });
         }
+        executor.shutdownNow(); //+
+
+        repository.setProgramsList(programsList);  //+
     }
 
     public void allStepsExecution() throws Exception {

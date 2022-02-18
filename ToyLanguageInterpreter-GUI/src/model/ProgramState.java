@@ -2,6 +2,7 @@ package model;
 
 import exceptions.EmptyADTException;
 import model.ADT.DictionaryInterface;
+import model.ADT.LatchTableInterface;
 import model.ADT.ListInterface;
 import model.ADT.StackInterface;
 import model.statement.StatementInterface;
@@ -16,17 +17,20 @@ public class ProgramState {
     private ListInterface<ValueInterface> output;
     private DictionaryInterface<StringValue, BufferedReader> fileTable;
     private DictionaryInterface<Integer, ValueInterface> heap;
+    private LatchTableInterface<Integer, Integer> latchTable;
     private static int globalThreadCount = 1;
     private int threadID;
 
     public ProgramState(StackInterface<StatementInterface> executionStack, DictionaryInterface<String, ValueInterface> symbolTable,
                         ListInterface<ValueInterface> output, StatementInterface program, DictionaryInterface<StringValue, BufferedReader> fileTable,
-                        DictionaryInterface<Integer, ValueInterface> heap) {
+                        DictionaryInterface<Integer, ValueInterface> heap,
+                        LatchTableInterface<Integer, Integer> latchTable) {
         this.executionStack = executionStack;
         this.symbolTable = symbolTable;
         this.output = output;
         this.fileTable = fileTable;
         this.heap = heap;
+        this.latchTable = latchTable;
         executionStack.push(program);
         threadID = ProgramState.manageThreadID();           // OR I put one more parameter, newID, in constructor
     }
@@ -49,6 +53,10 @@ public class ProgramState {
 
     public DictionaryInterface<Integer, ValueInterface> getHeap() {
         return heap;
+    }
+
+    public LatchTableInterface<Integer, Integer> getLatchTable() {
+        return latchTable;
     }
 
     public int getThreadID() {

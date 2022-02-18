@@ -1,0 +1,5166 @@
+
+Thread ID: 2
+Execution stack:
+(Ref(int) v1;(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+Ref(int) v1
+(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+Ref(int) v1
+(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+Ref(int) v1
+(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))))
+Symbol table:
+v1 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))))
+Symbol table:
+v1 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))))
+Symbol table:
+v1 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+Ref(int) v2
+(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))))
+Symbol table:
+v1 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+Ref(int) v2
+(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))))
+Symbol table:
+v1 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+Ref(int) v2
+(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))))
+Symbol table:
+v1 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+Ref(int) v3
+(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+Ref(int) v3
+(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+Ref(int) v3
+(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+int cnt
+(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+int cnt
+(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+int cnt
+(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))
+Symbol table:
+cnt -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))
+Symbol table:
+cnt -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))
+Symbol table:
+cnt -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+new(v1, 2)
+(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))
+Symbol table:
+cnt -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+new(v1, 2)
+(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))
+Symbol table:
+cnt -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+new(v1, 2)
+(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))
+Symbol table:
+cnt -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+
+
+Thread ID: 2
+Execution stack:
+(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+
+
+Thread ID: 2
+Execution stack:
+(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+
+
+Thread ID: 2
+Execution stack:
+new(v2, 3)
+(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+
+
+Thread ID: 2
+Execution stack:
+new(v2, 3)
+(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+
+
+Thread ID: 2
+Execution stack:
+new(v2, 3)
+(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+
+
+Thread ID: 2
+Execution stack:
+(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+
+
+Thread ID: 2
+Execution stack:
+(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+
+
+Thread ID: 2
+Execution stack:
+(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+
+
+Thread ID: 2
+Execution stack:
+new(v3, 4)
+(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+
+
+Thread ID: 2
+Execution stack:
+new(v3, 4)
+(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+
+
+Thread ID: 2
+Execution stack:
+new(v3, 4)
+(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+
+
+Thread ID: 2
+Execution stack:
+(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+newLatch( cnt, read(v2)) 
+(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+newLatch( cnt, read(v2)) 
+(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+newLatch( cnt, read(v2)) 
+(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))))
+(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))))
+(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))))
+(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt )))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt )))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt )))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))))
+(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+(v1) = read(v1) * 10;
+(print(read(v1));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))))
+(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+(v1) = read(v1) * 10;
+(print(read(v1));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))))
+(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+(v1) = read(v1) * 10;
+(print(read(v1));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+(print(read(v1));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt )))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+(print(read(v1));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt )))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+(print(read(v1));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt )))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))))
+(await( cnt );(print(100);(countDown( cnt );print(100))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+print(read(v1))
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+(v2) = read(v2) * 10;
+(print(read(v2));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))))
+(await( cnt );(print(100);(countDown( cnt );print(100))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+print(read(v1))
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+(v2) = read(v2) * 10;
+(print(read(v2));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))))
+(await( cnt );(print(100);(countDown( cnt );print(100))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+print(read(v1))
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+(v2) = read(v2) * 10;
+(print(read(v2));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(await( cnt );(print(100);(countDown( cnt );print(100))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+(print(read(v2));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 5
+Execution stack:
+((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt )))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(await( cnt );(print(100);(countDown( cnt );print(100))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+(print(read(v2));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 5
+Execution stack:
+((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt )))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(await( cnt );(print(100);(countDown( cnt );print(100))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+(print(read(v2));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 5
+Execution stack:
+((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt )))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+print(read(v2))
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 5
+Execution stack:
+(v3) = read(v3) * 10;
+(print(read(v3));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+print(read(v2))
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 5
+Execution stack:
+(v3) = read(v3) * 10;
+(print(read(v3));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+print(read(v2))
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 5
+Execution stack:
+(v3) = read(v3) * 10;
+(print(read(v3));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 4
+Execution stack:
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 5
+Execution stack:
+(print(read(v3));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 4
+Execution stack:
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 5
+Execution stack:
+(print(read(v3));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 4
+Execution stack:
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 5
+Execution stack:
+(print(read(v3));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 4
+Execution stack:
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 5
+Execution stack:
+print(read(v3))
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 4
+Execution stack:
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 5
+Execution stack:
+print(read(v3))
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 5
+Execution stack:
+print(read(v3))
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 5
+Execution stack:
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 5
+Execution stack:
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 5
+Execution stack:
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 5
+Execution stack:
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 5
+Execution stack:
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+print(100)
+(countDown( cnt );print(100))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+print(100)
+(countDown( cnt );print(100))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+print(100)
+(countDown( cnt );print(100))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+(countDown( cnt );print(100))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+100
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+(countDown( cnt );print(100))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+100
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+(countDown( cnt );print(100))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+100
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+countDown( cnt )
+print(100)
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+100
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+countDown( cnt )
+print(100)
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+100
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+countDown( cnt )
+print(100)
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+100
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+print(100)
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+100
+(latch) 2
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+print(100)
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+100
+(latch) 2
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+print(100)
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+100
+(latch) 2
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+100
+(latch) 2
+100
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+100
+(latch) 2
+100
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+(Ref(int) v1;(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+Ref(int) v1
+(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+Ref(int) v1
+(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+Ref(int) v1
+(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))))
+Symbol table:
+v1 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))))
+Symbol table:
+v1 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(Ref(int) v2;(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))))
+Symbol table:
+v1 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+Ref(int) v2
+(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))))
+Symbol table:
+v1 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+Ref(int) v2
+(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))))
+Symbol table:
+v1 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+Ref(int) v2
+(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))))
+Symbol table:
+v1 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(Ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+Ref(int) v3
+(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+Ref(int) v3
+(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+Ref(int) v3
+(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+int cnt
+(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+int cnt
+(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+int cnt
+(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))
+Symbol table:
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))
+Symbol table:
+cnt -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))
+Symbol table:
+cnt -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(new(v1, 2);(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))))
+Symbol table:
+cnt -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+new(v1, 2)
+(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))
+Symbol table:
+cnt -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+new(v1, 2)
+(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))
+Symbol table:
+cnt -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+new(v1, 2)
+(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))
+Symbol table:
+cnt -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 2
+Execution stack:
+(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+
+
+Thread ID: 2
+Execution stack:
+(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+
+
+Thread ID: 2
+Execution stack:
+(new(v2, 3);(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+
+
+Thread ID: 2
+Execution stack:
+new(v2, 3)
+(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+
+
+Thread ID: 2
+Execution stack:
+new(v2, 3)
+(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+
+
+Thread ID: 2
+Execution stack:
+new(v2, 3)
+(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (0, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+
+
+Thread ID: 2
+Execution stack:
+(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+
+
+Thread ID: 2
+Execution stack:
+(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+
+
+Thread ID: 2
+Execution stack:
+(new(v3, 4);(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+
+
+Thread ID: 2
+Execution stack:
+new(v3, 4)
+(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+
+
+Thread ID: 2
+Execution stack:
+new(v3, 4)
+(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+
+
+Thread ID: 2
+Execution stack:
+new(v3, 4)
+(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (0, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+
+
+Thread ID: 2
+Execution stack:
+(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(newLatch( cnt, read(v2)) ;(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+newLatch( cnt, read(v2)) 
+(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+newLatch( cnt, read(v2)) 
+(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+newLatch( cnt, read(v2)) 
+(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))));(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))))
+(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))))
+(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+Fork(((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt ))))
+(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt )))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt )))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))));(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100))))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+((v1) = read(v1) * 10;;(print(read(v1));countDown( cnt )))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))))
+(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+(v1) = read(v1) * 10;
+(print(read(v1));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))))
+(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+(v1) = read(v1) * 10;
+(print(read(v1));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+Fork(((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt ))))
+(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+(v1) = read(v1) * 10;
+(print(read(v1));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 2
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+(print(read(v1));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt )))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+(print(read(v1));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt )))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))));(await( cnt );(print(100);(countDown( cnt );print(100)))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+(print(read(v1));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+((v2) = read(v2) * 10;;(print(read(v2));countDown( cnt )))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))))
+(await( cnt );(print(100);(countDown( cnt );print(100))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+print(read(v1))
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+(v2) = read(v2) * 10;
+(print(read(v2));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))))
+(await( cnt );(print(100);(countDown( cnt );print(100))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+print(read(v1))
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+(v2) = read(v2) * 10;
+(print(read(v2));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+Fork(((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt ))))
+(await( cnt );(print(100);(countDown( cnt );print(100))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+print(read(v1))
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+(v2) = read(v2) * 10;
+(print(read(v2));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+File table:
+Heap:
+1 -> 20
+2 -> 3
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(await( cnt );(print(100);(countDown( cnt );print(100))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+(print(read(v2));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 5
+Execution stack:
+((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt )))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(await( cnt );(print(100);(countDown( cnt );print(100))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+(print(read(v2));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 5
+Execution stack:
+((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt )))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+(await( cnt );(print(100);(countDown( cnt );print(100))))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+(print(read(v2));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 5
+Execution stack:
+((v3) = read(v3) * 10;;(print(read(v3));countDown( cnt )))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+print(read(v2))
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 5
+Execution stack:
+(v3) = read(v3) * 10;
+(print(read(v3));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 3
+Execution stack:
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+print(read(v2))
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 5
+Execution stack:
+(v3) = read(v3) * 10;
+(print(read(v3));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 4
+Execution stack:
+print(read(v2))
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 5
+Execution stack:
+(v3) = read(v3) * 10;
+(print(read(v3));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 4
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 4
+Execution stack:
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 5
+Execution stack:
+(print(read(v3));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 4
+Execution stack:
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 5
+Execution stack:
+(print(read(v3));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 4
+Execution stack:
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 5
+Execution stack:
+(print(read(v3));countDown( cnt ))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 4
+Execution stack:
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 5
+Execution stack:
+print(read(v3))
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 4
+Execution stack:
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 5
+Execution stack:
+print(read(v3))
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 5
+Execution stack:
+print(read(v3))
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 5
+Execution stack:
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 5
+Execution stack:
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 5
+Execution stack:
+countDown( cnt )
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 5
+Execution stack:
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 5
+Execution stack:
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+await( cnt )
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+(print(100);(countDown( cnt );print(100)))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+print(100)
+(countDown( cnt );print(100))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+print(100)
+(countDown( cnt );print(100))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+print(100)
+(countDown( cnt );print(100))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+(countDown( cnt );print(100))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+100
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+(countDown( cnt );print(100))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+100
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+(countDown( cnt );print(100))
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+100
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+countDown( cnt )
+print(100)
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+100
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+countDown( cnt )
+print(100)
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+100
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+countDown( cnt )
+print(100)
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+100
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+print(100)
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+100
+(latch) 2
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+print(100)
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+100
+(latch) 2
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+print(100)
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+100
+(latch) 2
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+100
+(latch) 2
+100
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+
+
+Thread ID: 2
+Execution stack:
+Symbol table:
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+Output:
+20
+(latch) 3
+30
+(latch) 4
+40
+(latch) 5
+100
+(latch) 2
+100
+File table:
+Heap:
+1 -> 20
+2 -> 30
+3 -> 40
+

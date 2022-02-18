@@ -1,0 +1,3102 @@
+
+Thread ID: 1
+Execution stack:
+((Ref(int) a;(Ref(int) b;int v));((new(a, 0);new(b, 0));(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(Ref(int) a;(Ref(int) b;int v))
+((new(a, 0);new(b, 0));(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(Ref(int) a;(Ref(int) b;int v))
+((new(a, 0);new(b, 0));(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(Ref(int) a;(Ref(int) b;int v))
+((new(a, 0);new(b, 0));(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+Ref(int) a
+(Ref(int) b;int v)
+((new(a, 0);new(b, 0));(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+Ref(int) a
+(Ref(int) b;int v)
+((new(a, 0);new(b, 0));(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+Ref(int) a
+(Ref(int) b;int v)
+((new(a, 0);new(b, 0));(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(Ref(int) b;int v)
+((new(a, 0);new(b, 0));(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(Ref(int) b;int v)
+((new(a, 0);new(b, 0));(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(Ref(int) b;int v)
+((new(a, 0);new(b, 0));(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+Ref(int) b
+int v
+((new(a, 0);new(b, 0));(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+Ref(int) b
+int v
+((new(a, 0);new(b, 0));(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+Ref(int) b
+int v
+((new(a, 0);new(b, 0));(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+int v
+((new(a, 0);new(b, 0));(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+int v
+((new(a, 0);new(b, 0));(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+int v
+((new(a, 0);new(b, 0));(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+((new(a, 0);new(b, 0));(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+((new(a, 0);new(b, 0));(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+((new(a, 0);new(b, 0));(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(new(a, 0);new(b, 0))
+(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(new(a, 0);new(b, 0))
+(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(new(a, 0);new(b, 0))
+(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+new(a, 0)
+new(b, 0)
+(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+new(a, 0)
+new(b, 0)
+(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+new(a, 0)
+new(b, 0)
+(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+new(b, 0)
+(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (1, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+
+
+Thread ID: 1
+Execution stack:
+new(b, 0)
+(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (1, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+
+
+Thread ID: 1
+Execution stack:
+new(b, 0)
+(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (1, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(((a) = 1;;(b) = 2;);(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+((a) = 1;;(b) = 2;)
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+((a) = 1;;(b) = 2;)
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+((a) = 1;;(b) = 2;)
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(a) = 1;
+(b) = 2;
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(a) = 1;
+(b) = 2;
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(a) = 1;
+(b) = 2;
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(b) = 2;
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(b) = 2;
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(b) = 2;
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=( read(a) < read(b) )?100:200
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=( read(a) < read(b) )?100:200
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=( read(a) < read(b) )?100:200
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+IF (read(a) < read(b)) THEN (v=100) ELSE (v=200)
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+IF (read(a) < read(b)) THEN (v=100) ELSE (v=200)
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+IF (read(a) < read(b)) THEN (v=100) ELSE (v=200)
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=100
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=100
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=100
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+print(v)
+(v=( read(b) - 2 > read(a) )?100:200;print(v))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+print(v)
+(v=( read(b) - 2 > read(a) )?100:200;print(v))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+print(v)
+(v=( read(b) - 2 > read(a) )?100:200;print(v))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(v=( read(b) - 2 > read(a) )?100:200;print(v))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(v=( read(b) - 2 > read(a) )?100:200;print(v))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(v=( read(b) - 2 > read(a) )?100:200;print(v))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=( read(b) - 2 > read(a) )?100:200
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=( read(b) - 2 > read(a) )?100:200
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=( read(b) - 2 > read(a) )?100:200
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+IF (read(b) - 2 > read(a)) THEN (v=100) ELSE (v=200)
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+IF (read(b) - 2 > read(a)) THEN (v=100) ELSE (v=200)
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+IF (read(b) - 2 > read(a)) THEN (v=100) ELSE (v=200)
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=200
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=200
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=200
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 200
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 200
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 200
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 200
+Output:
+100
+200
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 200
+Output:
+100
+200
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(Ref(int) a;(Ref(int) b;(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+Ref(int) a
+(Ref(int) b;(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+Ref(int) a
+(Ref(int) b;(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+Ref(int) a
+(Ref(int) b;(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(Ref(int) b;(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))))
+Symbol table:
+a -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(Ref(int) b;(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))))
+Symbol table:
+a -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(Ref(int) b;(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))))
+Symbol table:
+a -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+Ref(int) b
+(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))))
+Symbol table:
+a -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+Ref(int) b
+(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))))
+Symbol table:
+a -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+Ref(int) b
+(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))))
+Symbol table:
+a -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+int v
+(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+int v
+(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+int v
+(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+new(a, 0)
+(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+new(a, 0)
+(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+new(a, 0)
+(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))
+Symbol table:
+a -> (1, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))
+Symbol table:
+a -> (1, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))
+Symbol table:
+a -> (1, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+
+
+Thread ID: 1
+Execution stack:
+new(b, 0)
+((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (1, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+
+
+Thread ID: 1
+Execution stack:
+new(b, 0)
+((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (1, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+
+
+Thread ID: 1
+Execution stack:
+new(b, 0)
+((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (1, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+
+
+Thread ID: 1
+Execution stack:
+((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(a) = 1;
+((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(a) = 1;
+((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(a) = 1;
+((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(b) = 2;
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(b) = 2;
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(b) = 2;
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=( read(a) < read(b) )?100:200
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=( read(a) < read(b) )?100:200
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=( read(a) < read(b) )?100:200
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+IF (read(a) < read(b)) THEN (v=100) ELSE (v=200)
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+IF (read(a) < read(b)) THEN (v=100) ELSE (v=200)
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+IF (read(a) < read(b)) THEN (v=100) ELSE (v=200)
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=100
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=100
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=100
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+print(v)
+(v=( read(b) - 2 > read(a) )?100:200;print(v))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+print(v)
+(v=( read(b) - 2 > read(a) )?100:200;print(v))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+print(v)
+(v=( read(b) - 2 > read(a) )?100:200;print(v))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(v=( read(b) - 2 > read(a) )?100:200;print(v))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(v=( read(b) - 2 > read(a) )?100:200;print(v))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(v=( read(b) - 2 > read(a) )?100:200;print(v))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=( read(b) - 2 > read(a) )?100:200
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=( read(b) - 2 > read(a) )?100:200
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=( read(b) - 2 > read(a) )?100:200
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+IF (read(b) - 2 > read(a)) THEN (v=100) ELSE (v=200)
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+IF (read(b) - 2 > read(a)) THEN (v=100) ELSE (v=200)
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+IF (read(b) - 2 > read(a)) THEN (v=100) ELSE (v=200)
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=200
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=200
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=200
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 200
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 200
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 200
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 200
+Output:
+100
+200
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 200
+Output:
+100
+200
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(Ref(int) a;(Ref(int) b;(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+Ref(int) a
+(Ref(int) b;(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+Ref(int) a
+(Ref(int) b;(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+Ref(int) a
+(Ref(int) b;(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))))
+Symbol table:
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(Ref(int) b;(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))))
+Symbol table:
+a -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(Ref(int) b;(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))))
+Symbol table:
+a -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(Ref(int) b;(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))))
+Symbol table:
+a -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+Ref(int) b
+(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))))
+Symbol table:
+a -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+Ref(int) b
+(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))))
+Symbol table:
+a -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+Ref(int) b
+(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))))
+Symbol table:
+a -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(int v;(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+int v
+(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+int v
+(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+int v
+(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(new(a, 0);(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+new(a, 0)
+(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+new(a, 0)
+(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+new(a, 0)
+(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))
+Symbol table:
+a -> (0, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+
+
+Thread ID: 1
+Execution stack:
+(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))
+Symbol table:
+a -> (1, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))
+Symbol table:
+a -> (1, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(new(b, 0);((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))))
+Symbol table:
+a -> (1, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+
+
+Thread ID: 1
+Execution stack:
+new(b, 0)
+((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (1, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+
+
+Thread ID: 1
+Execution stack:
+new(b, 0)
+((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (1, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+
+
+Thread ID: 1
+Execution stack:
+new(b, 0)
+((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (1, int)
+b -> (0, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+
+
+Thread ID: 1
+Execution stack:
+((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+((a) = 1;;((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(a) = 1;
+((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(a) = 1;
+((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(a) = 1;
+((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 0
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+((b) = 2;;(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(b) = 2;
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(b) = 2;
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(b) = 2;
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 0
+
+
+Thread ID: 1
+Execution stack:
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(v=( read(a) < read(b) )?100:200;(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v))))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=( read(a) < read(b) )?100:200
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=( read(a) < read(b) )?100:200
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=( read(a) < read(b) )?100:200
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+IF (read(a) < read(b)) THEN (v=100) ELSE (v=200)
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+IF (read(a) < read(b)) THEN (v=100) ELSE (v=200)
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+IF (read(a) < read(b)) THEN (v=100) ELSE (v=200)
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=100
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=100
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=100
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 0
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(print(v);(v=( read(b) - 2 > read(a) )?100:200;print(v)))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+print(v)
+(v=( read(b) - 2 > read(a) )?100:200;print(v))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+print(v)
+(v=( read(b) - 2 > read(a) )?100:200;print(v))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+print(v)
+(v=( read(b) - 2 > read(a) )?100:200;print(v))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(v=( read(b) - 2 > read(a) )?100:200;print(v))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(v=( read(b) - 2 > read(a) )?100:200;print(v))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+(v=( read(b) - 2 > read(a) )?100:200;print(v))
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=( read(b) - 2 > read(a) )?100:200
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=( read(b) - 2 > read(a) )?100:200
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=( read(b) - 2 > read(a) )?100:200
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+IF (read(b) - 2 > read(a)) THEN (v=100) ELSE (v=200)
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+IF (read(b) - 2 > read(a)) THEN (v=100) ELSE (v=200)
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+IF (read(b) - 2 > read(a)) THEN (v=100) ELSE (v=200)
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=200
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=200
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+v=200
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 100
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 200
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 200
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+print(v)
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 200
+Output:
+100
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 200
+Output:
+100
+200
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
+
+Thread ID: 1
+Execution stack:
+Symbol table:
+a -> (1, int)
+b -> (2, int)
+v -> 200
+Output:
+100
+200
+File table:
+Heap:
+1 -> 1
+2 -> 2
+
